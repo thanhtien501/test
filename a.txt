@@ -1,0 +1,2703 @@
+commit 6c368b6e3bca2ad90145e0c5fbb86964462bcee3
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Mon May 10 17:03:23 2021 +0700
+
+    XSRT-324: mpls_port_delete failed error msg
+
+commit cffb00df31c76e2e0b67e497487e00d8097e17d8
+Author: Nguyen Dinh Huy <huynd37@viettel.com.vn>
+Date:   Fri May 7 16:36:02 2021 +0700
+
+    XSRT-320 [CPU Limit]: CPU Cos Queue Limit
+
+commit e551b7e5018d86ac401246f143480d709a45c362
+Author: tuhn4 <tuhn4@viettel.com.vn>
+Date:   Thu May 6 16:54:47 2021 +0700
+
+    XSRT-301: Fix ACL show running-config and remove unuse code
+
+commit 2c697d71159bed7d69f2181ecefb1886da430bd4
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Thu May 6 14:07:22 2021 +0700
+
+    XSRT-322: boot up failed RSVP could not install to HW --> disble msg between HSL and RSVP
+
+commit d2011f0d338843cf515ca487bf87a633a2b5b403
+Author: Nguyen Dinh Huy <huynd37@viettel.com.vn>
+Date:   Thu May 6 13:59:07 2021 +0700
+
+    XSRT-69 [OSPF]: LSA throttle not work correctly
+
+commit 2fc3738a6a2a8ba021be13cc8f581dc4eaab9824
+Author: chauht3 <chauht3@viettel.com.vn>
+Date:   Thu May 6 11:50:03 2021 +0700
+
+    XSRT-214 [Reopen] Fix SNMP get IP status
+
+commit e32916c9ea47c06fc510cfdc5735b05c06447313
+Author: tuhn4 <tuhn4@viettel.com.vn>
+Date:   Wed May 5 17:52:02 2021 +0700
+
+    Fix cannot enter configure terminal
+
+commit f331074bf1e82cf8141d8864f024954138f6343c
+Author: chauht3 <chauht3@viettel.com.vn>
+Date:   Wed May 5 05:07:35 2021 -0400
+
+    XSRT-313 [PAT - Management] Error SNMP set power threshold Tx and Rx
+
+commit ca334f5a2d4ac47038823c8a98aebc92bc1e65a4
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Tue May 4 23:36:38 2021 -0400
+
+    XSRT-222: Fix bug PIM BFD
+
+commit bd83a88b106c01aa972eac746c624cafaa9bc0d5
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Mon May 3 23:23:19 2021 -0400
+
+    XSRT-159: Fix bug RSVP BFD
+
+commit 3187cb330a8ee84c75fa722e73699ce273e57547
+Author: tuhn4 <tuhn4@viettel.com.vn>
+Date:   Mon May 3 22:55:57 2021 -0400
+
+    XSRT-240, XSRT-245, XSRT-244: Fix L3 QoS mapping priority, porting QoS statistics
+
+commit 7f55321a402f34cd119a93b1ec69799adc2e310f
+Author: chauht3 <chauht3@viettel.com.vn>
+Date:   Mon May 3 21:49:33 2021 -0400
+
+    XSRT-184 [PAT - Security] Error create user with capital letters
+
+commit e9f0ebe81839077ae8046b192a284823f01be3a6
+Author: tuannv109 <tuannv109@viettel.com.vn>
+Date:   Wed Apr 28 04:36:15 2021 -0400
+
+    XSRT-49: Fix typos of error message in bridge command
+
+commit 8dad64399c96915f01b81ed8e74d2c3a22130c74
+Author: Nguyen Dang Khanh <khanhnd44@viettel.com.vn>
+Date:   Tue Apr 27 23:56:57 2021 -0400
+
+    XSRT-303: Porting IGMP Snooping
+
+commit 3abdb686d9789f062cb52394d5d7c23938c813fe
+Merge: f68e7ab 4a46ef5
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Tue Apr 27 06:43:52 2021 -0400
+
+    Merge branch 'SRT10G_CODE_MERGE'
+    
+    merge SRT10G_CODE_MERGE to master branch
+
+commit 4a46ef5ed08f4246100ed55fc536bbc44bfd7dc5
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Mon Apr 26 02:58:21 2021 -0400
+
+    XSRT-101: add fixed DHCP Relay feature from SRT-10G
+
+commit dac6855341dfde623daf237408f46bbd38d47b81
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Sun Apr 25 21:33:37 2021 -0400
+
+    SRT-1730, SRT-1810: fix bug pim config loss
+
+commit c113c990fa71c9a16b256ece0af09837656786f2
+Author: tuhn4 <tuhn4@viettel.com.vn>
+Date:   Sun Apr 25 21:30:44 2021 -0400
+
+    SRT-1474, SRT-1429: Packet classification by TCP flag
+
+commit 060d0fb0c4dda48de7ffbe88e444884b5b02c1e6
+Author: chauht3 <chauht3@viettel.com.vn>
+Date:   Fri Apr 23 05:55:57 2021 -0400
+
+    SRT-2095 fix transceiver optical-power disable-admin-threshold cmd
+
+commit dfe9266cad80478d52529103e4e4642f85f4ce9d
+Author: chauht3 <chauht3@viettel.com.vn>
+Date:   Fri Apr 23 05:36:55 2021 -0400
+
+    SRT-2193. Copy configuration file via VRF
+
+commit 54e06f6019524f67e3fb895c2a522528a4264504
+Author: chauht3 <chauht3@viettel.com.vn>
+Date:   Fri Apr 23 05:28:46 2021 -0400
+
+    SRT-1982: backup and restore running-conf,startup-conf - add cmd and fix coredump
+
+commit a91cea9a340b708339e2c45e9d8944ba6c88081a
+Author: chauht3 <chauht3@viettel.com.vn>
+Date:   Fri Apr 23 05:21:09 2021 -0400
+
+    SRT-2177. Remove Tacacs Server belonging to group in use
+
+commit dbf10389a65c4480de7d7763807d456b3bc12401
+Author: chauht3 <chauht3@viettel.com.vn>
+Date:   Fri Apr 23 05:19:56 2021 -0400
+
+    SRT-1555,1556,1687. Fix NSM crash when config UDP-echo/jitter with request-data-size option
+
+commit 5531f02e200de3cc8b2af06664f78e0f5c7a00d2
+Author: chauht3 <chauht3@viettel.com.vn>
+Date:   Fri Apr 23 05:18:20 2021 -0400
+
+    SRT-1577,1695: show users root tacacs+, authen accounting
+
+commit ad9e0bd9eb7376f891cefd20f3c82cd7650f812a
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Thu Apr 22 23:58:28 2021 -0400
+
+    Change Server IP from 172.19.20.101 to 172.20.1.18
+
+commit cf19af43b4b8fbf0d98057b32dbc0428ebf1632c
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 14:23:43 2021 +0700
+
+    revert SRT-1600 [Service Test][Cisco][Ring 4][RL1.2] Traffic L2VPN chiều SRT-PE bị drop khi AGG2 down-423e0a2420495d30132cb685c1e675107cd08d47
+
+commit e3bf8dd24fbf83eabc3f625af20218b4b3529e56
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 13:54:27 2021 +0700
+
+    SRT-1522, modified in show domain-id ospf -16cda6655b814015a81d1162bc83760f3e239cce
+
+commit a0501dfc80f53cfba2b018303766e6efb78a0a4d
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 13:52:52 2021 +0700
+
+    SRT-1078 VC status on two sides are different after executing clear ldp session -f019f003324948dacb3172ec531eb98b04ab0241
+
+commit 33aad54d7f3884b850a6927c8a734c0d9a8a9ce7
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 13:51:06 2021 +0700
+
+    SRT-1596: The subinterface is still up while the physical one is down-42a9e166fd849079886e8c72dc05929d15f7410f
+
+commit 5203c4f794b8b8210481550e31301563413dd476
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 13:50:19 2021 +0700
+
+    SRT-1538 [Service test][BGP] Cannot use update source loopback when configuring peer-group-2c205bad64134c898741fe8dfac6c19008a03359
+
+commit 937c585e206a323c74e98a71439e85462cf19b97
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 13:46:46 2021 +0700
+
+    SRT-1078 VC status on two sides are different after executing clear ldp session *-67336137638c53eeba6bf10bd7705bbd79c6279b
+
+commit 999e5364abe438bf28385c09023cc21f194204a0
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 13:45:24 2021 +0700
+
+    SRT-1568, add diiscription for command-3626fa417e8c60a18a727f0926d6813b78dcda69
+
+commit 96b2a12a0ea072c992088e1a9cef088f0fc46cfd
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 13:42:31 2021 +0700
+
+    SRT-1599:[Service Test][Cisco][Ring 4][RL1.2] RSVP session does not up after noshutdown-f211d0e4fc8812278947f75a0fe67816d766dda2
+
+commit ef6ec553cc2b3e61c9b8ef7a678c81baa9313b2e
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 13:41:34 2021 +0700
+
+    SRT-1600 [Service Test][Cisco][Ring 4][RL1.2] Missing code-4f96a4ea5b96dad53bfc079d711e16f101c2bebe
+
+commit eb845b5df9fbda88f8020e3947b5f8f754c8aebd
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 13:40:45 2021 +0700
+
+    SRT-1600 [Service Test][Cisco][Ring 4][RL1.2] Traffic L2VPN chiều SRT-PE bị drop khi AGG2 down-423e0a2420495d30132cb685c1e675107cd08d47
+
+commit 9b07c42b7b8b022409f3444211741fc0ce3646a3
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 13:39:02 2021 +0700
+
+    SRT-1600 SRT-1601 L2/L3VPN traffics are dropped when shutting down multi-links-313a481d36dedb3134e2532ca844d575aefdb8b9
+
+commit 155e0d53a09ebc4bac10af5fd852346508ea841d
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 13:37:21 2021 +0700
+
+    SRT-1557 [Service Test][Cisco][Ring 4] Support setting ldp router-id using loopback0-f4c49bd00ab06d694aec3424f57097a27eb94b04
+
+commit 0003866c9a66809f2f2de262c89d4a4aa6023f34
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 13:34:58 2021 +0700
+
+    SRT-1565. NSM crash when show interface-f6a28f7f76e7ef088f8fa1642d8157ef023d3d6d
+
+commit 76e4e838728228ae6e6f83ad1db279ca7cf42cb9
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 11:48:55 2021 +0700
+
+    SRT-1501, BGP rt filter default originate-7270e8cff9daaaeb0d168c71e802578c10d81d86
+
+commit b743ee57751982631ab4ea4621e212136b99c5c2
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 11:43:45 2021 +0700
+
+    Fix side effect of max metric fixing-2a8a1c63c9d35b79666b8bcae652c0473c509808
+
+commit 88cbf94a39571c5e6c7f55750c0943ef0428c536
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 11:38:18 2021 +0700
+
+    Fix issue Max metric still happens sometimes-35798ac80fae26274a3d80fb0e2cfcd03aa152b2
+
+commit dd1738d6a6236dc8e5fdfe835537b199b08e465d
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 11:32:26 2021 +0700
+
+    SRT-1543 [Service Test][Cisco][Ring 4] Issue L2VPN when up 2 links AGG1-AGG2 và DUT13-AGG2 - L2VPN Inter and Intra lost 3s to 10s-2ec5890c695738e7a409e07d2a4891c52fdb815b
+
+commit f68e7ab401d77e58795d1c622e2792e5b94fb99b
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Thu Apr 22 23:58:28 2021 -0400
+
+    Change Server IP from 172.19.20.101 to 172.20.1.18
+
+commit 621dde35b944c6e3d4b8097043679e24a31da3ed
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 23 08:05:43 2021 +0700
+
+    SRT-1679 revert of hsl crash: ptree optimized out - 820e90a80e9865d6b62830f6487e460b8802b8c1
+
+commit c8ff33951d076a4c75105e06c2cf5e6460317f9e
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Tue Apr 20 13:44:21 2021 +0700
+
+    Fix complile error
+
+commit 1e5b716a40c732c3d7433b26fdac6a89050c2228
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 15:04:59 2021 +0700
+
+    SRT-2207 [LDP] LDP session donot distribute routes when targeted adjacency come up first-5d01f612156379c532f97e0e73c9396c194c4610
+
+commit 4d755e5302b48aad60c4df37d0734f0b5319e686
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 15:03:46 2021 +0700
+
+    SRT-2206 ICMP packets use wrong label when executing cmd no explicit-null-5ba51a44fe963bb185e28e9824b27d4831ba18d0
+
+commit 7568c4113de0eba87685249afbcdd5432a233a4f
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 15:02:49 2021 +0700
+
+     SRT-1078 [SubIF] pw-status in 2 DUTs are different after excute cmd clear ldp session-65a6d515167851cab307117ca5eaf1ac13bfd36a
+
+commit cf453ecedee2b402ea067774bb6a2cd20f1a6f82
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 15:01:00 2021 +0700
+
+    SRT-2184 [Service Test][Huawei[Ring 4-3][RL2.9] Traffic L2VPN drop when no shutdown multi-link-ace560cb5df3eac3149584e1e3a539360b6339d0
+
+commit 8e6fb749340c4e70464a221ca0d5078b591de400
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:59:59 2021 +0700
+
+    SRT-1563: update-9d4d12b3c2ad65764a52cf06985c14dbcfe2970e
+
+commit b237e7cd24e0867ba11a4e8848017f8f164d2d11
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:59:01 2021 +0700
+
+    SRT-1584. Fix not apply MTU command in subinterface-b0fb1678d1a8c052e806acbf175e3b0374c2db96
+
+commit dc8c4bf48cfa43331ccd76b552e228976325e3d1
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:50:30 2021 +0700
+
+    SRT-2198 Traffic lost when shut/noshut multi link-7f44ed4c20e360af40355c01ebae5678ce90405f
+
+commit 2520cfd5c00dfc0bb1d3155d51c91d4ce4c78605
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:49:34 2021 +0700
+
+    SRT-2188 ILM lost when shut/noshut multi link-a04743869573a37a50e84b26024c8ac22f40ff05
+
+commit 49574dab86b3000577093b52da9ab337704f0e8e
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:46:56 2021 +0700
+
+    SRT-2198 Traffic lost when shut multi link-f77d5f9f8ad65271b2031795c19751889a9ae4bd
+
+commit d159341cc3a6f0e4d72c0c051617938b0d1e150d
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:44:36 2021 +0700
+
+    SRT-2201. NSM crash-c6940e854457f1493ecfb85ba387afed508e9f83
+
+commit e24066ad705bea9a6b046733a97a358332be56b2
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:40:38 2021 +0700
+
+    SRT-2200 SRT-2203 ldp lost ilm record when noshut single link-ddb18bbb17684b84733ceb57ade283736ff2035c
+
+commit 7ea2d33a802c6f4896787443f79e016146d69c93
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:39:42 2021 +0700
+
+    SRT-2196 [Service Test][RL2.10] Ping 4G_SV fail when bootup-853acb9c1323d786ac40887feb1ee9d0d5348617
+
+commit d03f2a462a39735400db7c1440cdcad43acc6d49
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:37:51 2021 +0700
+
+    SRT-2028: Reopened: wrong config when add remark for access-list-33a91735f0f54d0ecf7a2c7e095c2220289a916f
+
+commit 192961443f20cb1b092d0994a65df26a47708c6f
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:36:50 2021 +0700
+
+    SRT-2186 LDP/BGP session lost after shut/noshut multi link-bf79899837f34de1dc2dd7446b6a919c897c9480
+
+commit 547e5fa8f61e7f2117f23082b38dcd9d36ba4092
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:36:01 2021 +0700
+
+    SRT-2186 LDP/BGP session lost after shut/noshut multi link-48c68d0f192b8381681575649083ad4a53e513b1
+
+commit 7c2405f025bf7a82ac96a1b269d86e4a0848b815
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:22:12 2021 +0700
+
+    SRT-2187 [Service Test][Cisco][Ring 4-1][RL2.9] LDP session protection feature is not working-b4c9ffec52d3e2c6c85b73dcddc842e3426e6bef
+
+commit 6ef5c6d845d299d6d90f829c92070be5aa6cf1fc
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:17:46 2021 +0700
+
+     SRT-1580 LDP Session protection-39be4371ded484072004668589729bee5181d898
+
+commit 78f8057a0fb60779ef17c79514cc469451481a35
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:09:15 2021 +0700
+
+    SRT-2186 LDP/BGP session lost after shut/noshut multi link-473fefb20cb4b2b295e8a61e5212b3f132652c89
+
+commit c4871767b9d7ede7710c06ef083bfcc99c6ac64d
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:08:22 2021 +0700
+
+    SRT-2193. Copy configuration file via VRF-ae325daa76a648f4d15a513ce589b49ead7565a9
+
+commit 981f8b00fb17c8e6ed4d3722547559e212cc11f1
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:05:37 2021 +0700
+
+    SRT-2034: fix command: max-metric router-lsa on-startup doesn't work-2b06fc3eea463f85194c3dab020bfb01eac879da
+
+commit b9f8c5646161125cd82f330fe8bd3b575f4e08a1
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 14:04:07 2021 +0700
+
+    SRT-1457 OSPF Max metric from Redeem-9e13afa18d25b7d395bf1e282111ef766e3607a8
+
+commit 6e174d3ad12e3cc6cb4ef562450b67e6c4f30586
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:45:22 2021 +0700
+
+    SRT-2188 traffic 3G, VOG lost when shut/noshut multi link-4cb9e3c2ecb935f3e7fc0a452a50f91fb8e9216f
+
+commit 373560e425f35c44a46b0e6143df6c1a7970e7ca
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:42:20 2021 +0700
+
+    SRT-1965. Logging SRT events-d80d569cb7dcf449ff760f925f2ad9850e204c35
+
+commit 80b2d74048c2030c00822880bf599d9af043d8a7
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:41:15 2021 +0700
+
+    SRT-2183 hsl crash-cd17e2aa07409760eba0e0f245dfcd222028685a
+
+commit 140c61b6445bc21c881109326f7cdfaee481611b
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:40:23 2021 +0700
+
+    SRT-2181 hsl crash-4f4d4e76873a12c502865b56c6c37ea052d2fde6
+
+commit 42b1d20737ba3635e8500bd9f2deae5ffca76e7f
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:39:23 2021 +0700
+
+    SRT-2182 hsl crash-d3c1f9f628edbe2c93ebf899329b8a4f8809234c
+
+commit 0193d3d04014e1cf7620f89f3f6604174466c6af
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:38:23 2021 +0700
+
+    SRT-2182 nsm crash-9dae1fcb88909e82225e46093f8d98a4cbee7389
+
+commit ce1d059cdf6f392880d18d6a6be18868fd77623a
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:35:17 2021 +0700
+
+    SRT-2023 add implicit deny filter to ACL-9ed8cbb30631dc88799f7f8d97d9e3e6789dca2b
+
+commit a0b9536c2fbba83c689fb0d41d57f5f21f117df0
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:34:12 2021 +0700
+
+    SRT-2032 add ACL config to show interface IFNAME CLI-d1131151f639fef0d70acae90ad1394802025e54
+
+commit 766a51124dad400fa4b66e64b6009798895d57ef
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:29:56 2021 +0700
+
+    SRT-2167: LDP delete UCB of connected route-a6c96c5b7afeb024e06864c0dcfe5a34688d5b2a
+
+commit 68bc6c9e6e2558a47273b6bb10f2c0ee477a2c4d
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:28:21 2021 +0700
+
+    SRT-1563: advertise label for only interface loopback - delete code unused-2ca2d77196f46928f8e40498f54e8440844b2641
+
+commit 869e6fafb94573db9eb20ffb68f5b21fdf1c7723
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:27:04 2021 +0700
+
+    SRT-1563: advertise label for only connected route-faa2b092b83545900490c558954f26f8d11d0e64
+
+commit 07a1d542cdac4791e12719e6b41a14792941b8d6
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:13:48 2021 +0700
+
+    SRT-1679 refactoring code-36fa613b57d647f73591df39d630caf217771261
+
+commit fc6262f7efb0c62fb16ea719509cccb83c2d30af
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:12:36 2021 +0700
+
+    SRT-2106 Ircorrect out interface when shut multi link-cc822a4712cdf675ea7628fdedf666d71fe9c2f1
+
+commit ddd7021200b140696e5f37118de4090028a82638
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:10:27 2021 +0700
+
+    SRT-2173 remove unused code-d1c76fffbdd3c0fc36849600dc848122ad208489
+
+commit f065d8359b71fee8e1605872c1b45e3e1f8c9d39
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:08:31 2021 +0700
+
+    SRT-2162. LDP is crashed when disable l2-circuit-590fbf45d11af79376883426bdc257407b57974a
+
+commit 200e523643660c822b314d37f8a6ac230e01c372
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 13:07:14 2021 +0700
+
+    SRT-1507 ldp crash-fec2711c958f29f0afb7889c6ca5fcd3ccb22bf2
+
+commit 2abd1a1bb50db4e1bc667da54e2e60faeb73cf9a
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:51:15 2021 +0700
+
+     SRT-1679 change lookup avl tree from recursion to iteration-83e96ac90183ea23d517ab05cf05a16253101074
+
+commit fba68de34f62f5dbe67add1fc14cca632836a2bd
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:50:08 2021 +0700
+
+    SRT-2173 remove unused code-81d470dccf80af81fd3ac1f66f5b2074bab56b0a
+
+commit 9c8007a773b4d511e8b34ba5423408146a6e1d75
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:47:11 2021 +0700
+
+    SRT-2163: command Show interface cause coredump hsl-fcb543c92c12dc3c74d977d8120ae7ad366c425a
+
+commit a3dd500aad7ec2e482898ad2acc13286ddda9e77
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:46:19 2021 +0700
+
+    SRT-2106 NSM retry add FTN entry-0a1efa001e0624cefc6e70a1924b4a122f212a2b
+
+commit e7392d7c4513d1653d2d98ad180d0b648285d673
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:44:35 2021 +0700
+
+    SRT-1679 remove unused code-bfdfc3848be920ffd6d39b9ed74da1439a2406eb
+
+commit 5c1d1dfa406ea780c5a838816db045827d49d99e
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:42:36 2021 +0700
+
+    SRT-2109: speed's ports don't change-d98acc63125652c9b2c50c11bc56116ed4dab0e3
+
+commit 9809b4b4f5ab0cda6bcccdbd4b8ddc32d380df96
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:41:43 2021 +0700
+
+     SRT-1156 [MPLS TE 3 Labels] [OSPF] does not establish with CE after rebootingt-6ccdd9e5aba68d42e04a4a0b821c4a37a7f7e5b5
+
+commit 06f091a24dda1ac2563cf5d97318b8aca264c33e
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:40:43 2021 +0700
+
+    SRT-1679 hsl crash bcm lport-a96faf1f46e36660d9de29fa4d615501301af286
+
+commit 40ca0ada5c75a43b813db59259abb090021abb76
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:39:57 2021 +0700
+
+    SRT-1679 hsl crash-de2522dd945b6946cf0acb647ea659df2717391a
+
+commit eb123ac700dffb0dd5cc17097ea00bc06e143359
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:39:09 2021 +0700
+
+    SRT-2106 [Service Test][Huawei][Ring 4-1][RL2.6.0] Traffic 3G, VOD in DUT11 lost when down multilink DUT1-DUT11-958541fe5f39bb89f56881e7d9918c25bacf31eb
+
+commit d9bec9007daced9a9798ab7fa4025b144bdeb7d0
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:38:11 2021 +0700
+
+    SRT-1679 hsl crash-85e93538da1e6839a4dfb36c5d3f10a6283e157e
+
+commit 589da40104ac8d354203b72e7b9f3b0fe360852f
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:36:29 2021 +0700
+
+    SRT-1679 hsl crash-849ef6cde74de884d4b0710604c85820412ca3a2
+
+commit 7d5a75b7ec0f4955ea389cbf6a93cf5ffcdcb58c
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:35:31 2021 +0700
+
+    SRT-1699 unlock ptree for fix hsl crash-f618df29bc1062f800f3d67983411cbdfba20dea
+
+commit f00fdc5bdca914dfb74feaee349f76acf610a9a7
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:34:04 2021 +0700
+
+    Fix build error SRT-2122-1871be61394c160b0a0b99e05e03047fb9a7fbbb
+
+commit 8b43d57ff318a6128e19621a021d9bb7103fafb2
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:32:06 2021 +0700
+
+    SRT-1679 hsl crash-8ca0f6507c88509125c830e0dee3721dc59ad061
+
+commit 2917ced7e66b3226807a68c52763e14df331a7f0
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:31:23 2021 +0700
+
+    SRT-1679 hsl crash-98abcb0074d3203916f1e252fa8038cc02895abc
+
+commit 0a2bc2b2d4fb983ef1744d0b93ff19431ba432c9
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:29:41 2021 +0700
+
+    SRT-2111 [Trien Khai][3k route] Fix ping NMS failed when secondary path up first-27339b8130843db75dd3023089bd636d8bc89558
+
+commit d4e4d5bd1bf31f01dd016add0fb68851bd540e4c
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:28:43 2021 +0700
+
+    SRT-2110. Fix terminal hang-41e2879037edd64c2dc8441307c5672c2c914a2b
+
+commit f9f7aa5817233ab3ffa12acb0569a75124f21608
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:26:46 2021 +0700
+
+    SRT-1984 : Port'speed suddenly increase after port up-bc710e067dc9c8363479fd32c7c3e108873f9bfb
+
+commit e235e85faf6cdf800e55a277575008cb4ee5665e
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:25:44 2021 +0700
+
+    SRT-1982 : Backup and restore file config-9c7b6c3d740a2f881e02913e56f48180c1535e4d
+
+commit fcd73ecce8eb62506288978139b275e32a4e4227
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:24:45 2021 +0700
+
+    SRT-1981. Fix: copy empty-config startup-config command-56c187d6069a7e619860a4f6dcc48e3f1704d919
+
+commit a8d857e5ea5e461c06f7c6a52d2e004a747523a6
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:23:11 2021 +0700
+
+    SRT-1452 hard code loopback interface cost = 1-1b204b5f602662e1c5739f7fbae86f8c039ac22b
+
+commit c20011f9ef7c55b1f6c74ceca98c9b598159e7fa
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:12:29 2021 +0700
+
+    SRT-2082 duplicated advertised route VPN -  1615a9affde2cce2fcd0b533e1a3444fd3de2327
+
+commit db2de1bbae7d15944b8393315facbbdba4918e11
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:09:18 2021 +0700
+
+    SRT-2057 [Service Test][Cisco][Ring 4][RL2.5] Fix multicast traffic forward to interfaces which do not have any IGMP host-  df5d78ee91228af0d08b60a84dd03c4082cd5562
+
+commit 22b6131f8be4012c9e37f66b4c26776740b9bd5e
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:07:15 2021 +0700
+
+    SRT-2059 500ms when shutdown multi link-  bdbdef64576adcf18c43ff41821d99221350a227
+
+commit 7f4131d7bf07c1a8986a16f3c20877c69fce8e4f
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 11:03:49 2021 +0700
+
+    SRT-1525 Implement carrier up/down delay feature-  1663211dc952fdc21b889cae432830d75f672828
+
+commit 54953a93a775340ac01436f90f344aaef352ac06
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:52:32 2021 +0700
+
+    SRT-1441, Tunnel Selection feature-  6bb233bed1887953ef51128439867cda5ab30d7d
+
+commit 73516394fe93aadb52d3e93e4d05087452227cec
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:50:15 2021 +0700
+
+     SRT-1679 hsl crash: ptree optimized out-  97505edf76006761fe9faafa052955830fdad3d8
+
+commit a5baa09e2c61398a83c8b20ab0b54660debb723c
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:49:21 2021 +0700
+
+    SRT-1679 hsl crash: ptree optimized out-  1ed7dd06f9e229c6f75c3811adebb6c7755275b8
+
+commit 5f471e9a502af3ff723a4d68fb9b569e60c5200e
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:48:26 2021 +0700
+
+    SRT-2056 IGMP snooping disabled when reboot-  c60db40531eb81699b66c39d971110b9bbe5eb9c
+
+commit 57d0ba551cc24acf960892ba2d01bbc742e6e0ea
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:47:16 2021 +0700
+
+    SRT-1679 hsl crash: bcm lport optimized out-  c0696fc03ba29b6535d334bb5237416ebcd048b3
+
+commit 18121f102d896c975e176ff047c8ad3d6a2b0c47
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:46:12 2021 +0700
+
+    SRT-1679 hsl crash: avl tree optimized out-  6933fba44d2cc3232f91e9a444db9d56b4dc6a66
+
+commit 5b043aba4da038c457f5820686aaed77d65c0480
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:45:24 2021 +0700
+
+    SRT-1679 hsl crash: ptree optimized out-  e113c341d4a01ae7c1c7b61505a7ee3cfc3bd0b0
+
+commit aa0902b3ca3edc3fa4d9462350e69fe2a08d1ed2
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:44:31 2021 +0700
+
+    SRT-1679 hsl crash: linklist optimized out-  2609fe8017d24b950883eb38bc9d89f0b02b85c3
+
+commit 1debff4d130cf173c2abdabdf671929f99e61263
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:43:39 2021 +0700
+
+    SRT-1679 hsl crash: check null before kfree-  43c469cf17bd9f74c73dacdb678858f1aa3a1024
+
+commit a6c800b2eb5a997e70fbf0e6d5eead407995e1ef
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:42:39 2021 +0700
+
+    SRT-2054 show system memmory error -  753088f8b27c024a13609049b80058678376eb75
+
+commit 9f7ba48c624ea91c5c365c2c49cc71934e5c164b
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:41:41 2021 +0700
+
+    SRT-1679 hsl crash when shut multi link -  820e90a80e9865d6b62830f6487e460b8802b8c1
+
+commit 61dd4e75257576314f27ea6ab5084329c363edc9
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:39:40 2021 +0700
+
+    SRT-1882: double VRF entry -  83e14b91fba8eedc253c374f5513a3b2faba9278
+
+commit d71b831e88bbb79a74112096f3946343cca633a7
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:38:45 2021 +0700
+
+    SRT-1822 [Trien Khai][3k route] Fix nsm and ribd crash when delete vrf -  fe47585d54d0e69af0661b9d51f3ca2d862f42b1
+
+commit 3d6146ea68415db143d8bd9efc8e562a21dfb6fd
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:37:16 2021 +0700
+
+    SRT-1805 edit XCALLOC -  47bc076af79d835bcd2abc65fc72004ecfaaf5a7
+
+commit eff46c3af399e5a111788a4ac9e905abb12ce187
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:35:26 2021 +0700
+
+    SRT-1805 edit XCALLOC -  00fb93e22fec3460b5c53954c289f5d75c02d1c7
+
+commit 023e2e9ebe19757967797ac660b0650b2742e8e6
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:34:16 2021 +0700
+
+    SRT-2045 Fix lost telnet session when execute cmd: no access-list -  68422921400f973e963b2229da083614aba16e58
+
+commit 0acae40018f0bf13c406a36d51ab9b45ff5999ef
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:26:52 2021 +0700
+
+    SRT-2024 [Service Test][Cisco][Ring 4] Fix RSVP sessions up slow when boot up -  648f8ec961db6431046ef65a307dba210d375fa0
+
+commit 228331c35b1a5bb897fd54c5fd3d51d8c2221e0f
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:25:03 2021 +0700
+
+    SRT-2010. Fix bitrate of aggregate interface is not shown on IPMS Server -  5ffcdf41760640f43ff31805850e65411347c132
+
+commit f3518777ffe616eb41f2b6d3318713336b52c4df
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:21:57 2021 +0700
+
+    SRT-1957 : show system process display wrong %cpuload -  c39e5350c6d4c67b213f24370d7999f11deaeadb
+
+commit 0ef492275d038933fe56c71b2d4206dd30357226
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:11:44 2021 +0700
+
+    SRT-2022 [Service Test][huawei][Ring 4-3][RL2.4.0] RSVP session not up when up single link -  7ac5a907b8d35d8f520cad64af05fccd5a0f61db
+
+commit 7cea21cbbeba9f0de9082ab406d46743168d7551
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 10:06:41 2021 +0700
+
+    SRT-1805 memory leak: Using XMALLOC XFREE -  cb15a7435a094bfc68e96748c740689f48d6a9ff
+
+commit a34584e76dc64714f018ae4f6965dc4459f6110a
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 09:30:41 2021 +0700
+
+    SRT-2019 Add option 7 encrypted for cmd: ip ospf message-digest-key 1 md5 -  53ed168f1c77e25e41a4d9e209a5555b21925d89
+
+commit 430213463f0e080b8b0c2df23c7c89138dc4f748
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 09:28:19 2021 +0700
+
+    SRT-1610 BFD bind unknow client -  1f669c5d1d40164cdd90c4f25f93f4d3c9653b9e
+
+commit 15c455925644a7c2ced20cd1549d85f5168c10ea
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 09:24:05 2021 +0700
+
+    SRT-1822 [Trien Khai][3k route] Ribd daemon crash when deleting vrf -  0975b440d11e7898a20df232c214ed8abe6b24f2
+
+commit db3e39cb5dcc4361e37d103b97917b2a7ff3a44b
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 09:20:07 2021 +0700
+
+    SRT-2006. Move source code from lib to mribd-  0a5e62274c6a19949be93e1b58e4a7694d257cf6
+
+commit 67c3ced5279e2cbfc47b1663ea1635943e49a015
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 09:05:54 2021 +0700
+
+    SRT-2008 Lost traffic 4G after shut link 58-AGG -  0855361de2fcedff80dd552ed0b7b71b97939b3d
+
+commit af4f1586a5d650e023d90e557b57e10530d90e28
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 09:04:59 2021 +0700
+
+    SRT-1712 SRT-1713 SRT-1736 SRT-1698 hsl crash -  d9549ee249bb26c60c653202dc90dc761af6ab3e
+
+commit a6a406d017df0da151c5368bac44d098628664cb
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 09:03:55 2021 +0700
+
+    SRT-1954 Lost traffic when shutdown link DUT58-AGG2 -  76c5b697088f5bf9b8fe3cca5e56a1dfbb208002
+
+commit e1a714cd118c911eb337f2f160754b35fd33689b
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 09:03:00 2021 +0700
+
+    SRT-1996 device does not reboot when HSL crashs -  7a53fa6e5f9faf023f779a4bd0bb10af6785e8d5
+
+commit 10b798093fa8ea54b205456e16b6ad1dd7905ffc
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 09:00:34 2021 +0700
+
+     SRT-1941 crash hsl-  37a4bf42464ecd5d93ed945bd24b8536e65417f8
+
+commit 435db17dd5bd3f5137f8c30f777fa700f1335e99
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 08:55:20 2021 +0700
+
+    SRT-1966 shutdown link AGG1-AGG2, lost connect with AGG -  fbb80a04421afdef49be7d125fb6dfb08f008b9f
+
+commit f89b9ea33034379d7ac6abb5dda3311e6d55fcbb
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 08:54:14 2021 +0700
+
+    SRT-1940 can not ping after shut multi link AGG2 -  4140d1574afe2177c74e6bc5b683274aefac4eb3
+
+commit 2683a1b2be4d01e25c91321bbda2e54f3084b93e
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 08:53:02 2021 +0700
+
+    SRT-1946 Ircorrect out int ILM -  6ea910571cb077f329eefdcf58b447906c73c5ba
+
+commit e6aa3eac34943b6009790715663b0a7f2263494b
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 08:44:42 2021 +0700
+
+    SRT-1646. Re-open. Showing multi-VRF -  9b179f1fd85db566c72f8e308f7ec687af0f489b
+
+commit 95ab639d5507f96996a43c1e6dbfade97ea5c19b
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 08:39:18 2021 +0700
+
+    SRT-1953 Timeout configuration for loading binary -  ac690245fc82b63ca3b8139147e40ab7db5eec98
+
+commit b3bbc28465c8b3c4f1063e9567e77910dea40936
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 08:37:48 2021 +0700
+
+    SRT-1929 SRT-1930 [Service Test][Cisco][Ring 4][RL1.10][3k route] SRT cannot add L3VPN routes when peers enable MPLS per VRF feature -  bbdd2d085df7b60c54dcd0feceba20c58b19f6e5
+
+commit 313fbd66c3655d9ed9b0787bb4d95700dd223d22
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 08:36:26 2021 +0700
+
+    SRT-1917 : delete log- 29d909d6c4a3cdfaed610374072e20a679383eda
+
+commit 38e68e91216d0762dedcc26f70ded31b7f39ebd3
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 08:31:18 2021 +0700
+
+    SRT-1917: Portchannel count on only physical interface- b977eccb586c21e9ec90c5b3c9d92ab6d989fb9f
+
+commit 61655014746f5e7653f39d86abc459342ad07486
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 08:29:48 2021 +0700
+
+     SRT-1954 Timeout configuration for loading binary- 945ca4003c8f4441e656f7a9e706f9fc59a265a2
+
+commit 08d3b16307a49b409e2d6ecd899a0e13a33bc2dd
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 08:28:41 2021 +0700
+
+     SRT-801, error oid of tx-rx interface power- 34a640770c3e2cfcb64c5c88e549947ff50a2225
+
+commit 96e039f668c1630d908dd453cca6bd8195afa865
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 08:27:20 2021 +0700
+
+    SRT-1953 Timeout configuration for loading binary - 2bd9311e604675204abc4a3bdab9486ac48c0782
+
+commit e1f61733d8dd4a184ff55aef2c77d3a00e156731
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Mon Apr 19 08:23:41 2021 +0700
+
+    SRT-1952, upgrade binary by account local - 42ced8c46bb10c5bde711d76ff8dff1638fce297
+
+commit 93b46d0854e3fa0d3ecf605fb825727af3b035a4
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Mon Apr 19 08:08:36 2021 +0700
+
+    XSRT-203 [PAT - Management] Support Process Fault Mgmt
+
+commit db2a8962715a9e87fe3cdc0e4a2385ed4b900a9d
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:42:23 2021 +0700
+
+     SRT-801, error oid of tx-rx interface power - c0739180b89ec27805b44e7850d6f5745ac48f3e
+
+commit 900d3eea6fc3cb3b14edb45b2151b41bf3a3a152
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:37:24 2021 +0700
+
+    SRT-1806 Optimize bgp source - 35738ee5da22f7cc182a2972d2113af028488f6b
+
+commit 370916e93a0917511823ce07fd46da7dcf3ef977
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:36:28 2021 +0700
+
+    SRT-1891, CLI privilege mode error - 7d12d4954e9292142718e34b31ed40eb3fd8a699
+
+commit 71ebc6e5b7fe5dd45e62aa6d4b897a94097c857c
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:29:43 2021 +0700
+
+    SRT-1917 : Portchannel are 4 times more speed than reality - cd939573bf75c9f7e6996673a96b5ee8292ec9b0
+
+commit 53019d9a8d7ad2dbbe3de55d27957f5f68ac2f32
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:27:34 2021 +0700
+
+    SRT-1920, IPMS monitor subinterface - ebd42757bc4e7d1055a18d89a7fed98fa5a8bcd6
+
+commit d514c51eec93a5ffac7ffd072370b46cbd722d12
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:26:02 2021 +0700
+
+    SRT-1838, show memory follow command free - 6feff4c5cb82955492cc4997047ef99684830071
+
+commit 9a1f6a6e61b03af9c45b9e23789dc123afb722db
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:25:00 2021 +0700
+
+     SRT-1888 IPTV services in network all fails - 277a4d1fd47ebfd34b9aec3bfd26d2358f4ad704
+
+commit 6dabcd0187d3530471d25765f04181f4e532df1c
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:22:53 2021 +0700
+
+    SRT-1888 IPTV services in network all fails - missing code - 47da292ac2097629c94ca44924fe9a932769bea6
+
+commit 53825bbed06086c0a1b4db35d49ff9aaad4c2a4d
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:21:57 2021 +0700
+
+    SRT-1888 IPTV services in network all fails - 209101be880eab1741fdf90df2f82d275560942f
+
+commit 4348996712e1e193b2b480d3c41ec1fd7367b28f
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:17:20 2021 +0700
+
+    SRT-1805 remove unused code - e1faef818b08220b23d4eaa00af6c696e5d805a4
+
+commit 1f4e1bf44eb6c5e1f2ae965bc6ef2966327bec4c
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:16:14 2021 +0700
+
+    SRT-1856 [Service Test][Cisco][Ring 4][RL1.9] Lost traffic FTTH from DUT68 when shutting down xe1/2 DUT74 and Gi0/1/1/3 AGG2 after 2 min - 4bb1acf9bc7ab01a28ca3fa0232f09575072ebdb
+
+commit 5c3bad96761fa2d606da1056cae194647b233223
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:15:16 2021 +0700
+
+    SRT-1855: add condition - d280fb0818f632aeae65e6a2e1894e094e04f1e5
+
+commit 6d0a717b8dfe3196c08590e0db4e948efa4d0fe0
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:14:11 2021 +0700
+
+    SRT-1855: fix slowly down rsvp sesion - fbc97627722d8f15b2ca267f4bd35544a7767545
+
+commit 8b0911d34be6721b5adaae30b5edc4865e1ba0a5
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:13:01 2021 +0700
+
+    SRT-1851 rsvp sometime crash when config TE in AGG - d90d53956e1f6fa9cd293b8d414fc182a0f4f1e6
+
+commit 51297cd20571622020920d52c34422893fd352bb
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:11:56 2021 +0700
+
+    SRT-1831 SRT-1832 Sometime Traffic lost when reboot SRT - 2a285513227904c790091693fef57b4e340fb1c7
+
+commit edc7935396e922101d670e2d0c4f69ed24beff0c
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:10:50 2021 +0700
+
+    SRT-1860 [Trien Khai][3k route] L2/L3VPN traffics loss after rebooting - a07288d419f81e17b44f5f30a77e2a2fe607b012
+
+commit 3dbf08740fdc6300e8d1cf6599bec0e2bfed244b
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 17:09:01 2021 +0700
+
+    SRT-1805:memory leak - 311064b9885d83a96682cc035226df9bf73f49b3
+
+commit 4d4c5e62dbcb269d28087147b58a229ff179998e
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:59:11 2021 +0700
+
+    SRT-1858, remove channel-group with sub interface - cc192ab3ee2ad5ac88f84007f2921dca79002591
+
+commit 3375df17e0eb526db0eda58c5e9de093a661fbc2
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:55:27 2021 +0700
+
+     SRT-1851 Fix bug rsvp cannot delete ftn- 16c23e664f0ff65260fa19f9da39dbc011d9160e
+
+commit 90181bd115fe1f5cb8d4f67913f10bdbd5eaf8ec
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:54:15 2021 +0700
+
+     SRT-1855: fix rsvp session- 638494412d86c3d4fd3dc17de7ff2952cb970f60
+
+commit ed455d615777b62525cd9d3a28ce772435d8ff2c
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:53:21 2021 +0700
+
+    SRT-1851 Rsvp crash and not up after config TE in AGG- 459378a5e07966d24e99ed2bccf36e22ec204cad
+
+commit 8d433120bbfc7b07f53a091c9d1adeece8266b0b
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:50:28 2021 +0700
+
+    SRT-1716: upgrade control up down subif port channel- 37812d1a13575914c84dfb91df0fe7b538f28d7f
+
+commit bad212289e322b4af9e366310679f77835cb9301
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:43:41 2021 +0700
+
+    SRT-1854: fix up down sub if port channel- 0d7f3762ecee2f40b3eca722de9aebe5fe35a9ea
+
+commit bdd79cc2706e47768d66e738319763fb55a4b336
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:42:43 2021 +0700
+
+    SRT-1848 [Trien Khai][3k route] Withdraw incorrect VRF for BGP VPN routes- 8b3c05b8b9ef6cf55b0422db37f1fb0046cfb934
+
+commit 8cccf2db36f00a86d550ab7cbe27ee279f1061ff
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:41:39 2021 +0700
+
+    SRT-1845 [Trien Khai][3k route] Edit show version in imish - fix- 9e583cf61a5a2d160ee841653d671383a42b932f
+
+commit 39249d5377074f53b100751ed60e75cee991944a
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:40:10 2021 +0700
+
+    SRT-1845 [Trien Khai][3k route] Edit show version in imish- 043f45d265b8fee7350569f29c3107a40ed719ff
+
+commit 65f6a3152a798bba4db50f1332b7320ae555ca21
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:34:17 2021 +0700
+
+    SRT-1844 fix lost config port channel- 30c28114507463a2b7a9883ab0d9e6ff04585823
+
+commit 23f4403dd9646302118fe4514e4252dc49ddb6d0
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:32:58 2021 +0700
+
+    SRT-1843 fix lost config subif port channel- d28cbb5312ee45af2a2ed4fe86b0949d40d05065
+
+commit 9ad7d0ebaf65e45dfecfd5dd772579463baf3420
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:31:56 2021 +0700
+
+    SRT-1716: Add more condition for port channell- 30142d7a453fc145022b723d53e8b8997b2767cc
+
+commit cccec43d5717484e1f11714a58124a451333ecfa
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:28:08 2021 +0700
+
+    SRT-1805 Fix bug memory leak: BGP- 7e9dca63badb39e81d0757f5cd93edc78ef9a40c
+
+commit daeb99f0f1c6659ca4b2325a8ee673e23123c337
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:26:04 2021 +0700
+
+    SRT-1805: fix memory leak and adding some cli to trace heap memory- b298f5f34ec6fe5c5ae17a82204c9a218c12c8c2
+
+commit 50a457514c66e519961e3188c8b117f4bc1ffeff
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:24:37 2021 +0700
+
+    SRT-105: fix memory leak- ec115edfd6ddd3e1cbd6e3db47601b01deea18f2
+
+commit ae4f8e2c26ce2cb9750056c468f268a632442ad9
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:23:34 2021 +0700
+
+    SRT-1805 Fix bug memory leak- 13a85c1cd2b1b5ed0eb40c309a472060ae35202d
+
+commit 79905a4463e40ee801e9957711a4c9a4dbcd4199
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:22:42 2021 +0700
+
+    SRT-1805 Fix bug memory leak- 3766b4d8217588eb39eeae40b2e81374d6bcbb15
+
+commit f29cfaae25c16e8da97f253f78d1a975a95efba7
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:21:44 2021 +0700
+
+    SRT-1752: Fix memory leak lib/nsm_message.c- 75e57e5fae35a01072b506420eb935e2d559704e
+
+commit 7d7308c3bf143d5705307429b5835374c3ff60e9
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:20:41 2021 +0700
+
+    SRT-1839 [Service Test][Cisco][Ring 4][RL1.8][3k route] Clear un-used routes in BGP database- 2bbee94e4ca03836f84391b2291a22a5db0e038f
+
+commit 46bac581cfad8aec0863fadbabb3adf9a21f0508
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:19:44 2021 +0700
+
+     SRT-1824 [Trien Khai][3k route] Routes are recursive to nexthop- 3c18fd913e63b7bbdd798023de15f1912aa86180
+
+commit 5c176b7deaf716c1e3fc797ee13ceb6166ee0e34
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:18:23 2021 +0700
+
+    SRT-1822 [Trien Khai][3k route] BGP daemon crash when no ip vrf- 5f73c3b80a79931cdb49f8086516f1f5504cd61a
+
+commit b33f7ac414427b219ed25afa2ce1cc6c7637cebc
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:17:13 2021 +0700
+
+    SRT-1822 [Trien Khai][3k route] BGP daemon crash when no ip vrf- 44a81e838e805dbc9772a0ef18cb1773422135b0
+
+commit 761cf2307969e6b9fc32b6bd763acb35384e2177
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:11:06 2021 +0700
+
+    SRT-1814 BGP-RT-Filter: RR not send rt-default but PE still send VPNv4 routes to RR- d409d035b9da0c45e04bec79e182116ad9265718
+
+commit 37274d9b14475ed6163908d0d4f23b1dc982b7a5
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:08:00 2021 +0700
+
+     SRT-1805 Fix memory leak: nsm crash after commit f8109e911- fee07d882c2e198c4ce793f88b2f28789bd0cc09
+
+commit 36a9b6e75f1308b394c4b9491eec64553172a638
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:06:52 2021 +0700
+
+     SRT-1802 Fix cannot show 3k routes in proc file- ba655dd12fca219098473a3dbf71f48a6e5ccec4
+
+commit 1b9c3cd8f3ed372b01c4c7a122423376423af610
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:05:52 2021 +0700
+
+    SRT-1805: fix memory leak- f8109e91167e05416d8fd754fe3277b005891f24zebic-4.2.1/lib/nsm_message.c
+
+commit bb9babc86825db8f15dd1d3527ad901e061bbfe7
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 16:04:08 2021 +0700
+
+    SRT-1541: fix BGP rt-filter IOP with cisco- 72faf11159ef815353b5e9119b4c28716295bfba
+
+commit 9d8a2e02d94c4e0bdba38dcf7043fd698f71eb12
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 15:57:24 2021 +0700
+
+    SUBIFP: Revise code for working logically- 8b2938bdcb81221504ba17b9f3c3fca0ab79a2a8
+
+commit efd0ccb19242359935972900d39127910bfee006
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 15:14:44 2021 +0700
+
+    SRT-1745: L2VPN: active both primary and secondary path- e2dc316ce53249f9e1db96f99a85ba3e8cc92265
+
+commit 9aa6d56fea4dcee7025ca18de3200e5f55fe80ab
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 15:13:49 2021 +0700
+
+    SRT-1483 SRT-1490 LDP Ilms aren't installed correctly- 6c2ead30e6afb88b832442b71768ff83ed0cd099
+
+commit fe65b1ac6b3e385d9b7b927e6b2a36cbcd3d378f
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 15:11:47 2021 +0700
+
+    SRT-1541 - rt-filter- d27c74f8401e65e997338710e0e9efa333fdc04b
+
+commit 0c6c326afa4a5c60057c0ff553238258f7c4834d
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 15:08:24 2021 +0700
+
+    SRT-1793 Support RSVP Bundle message- f8bcf13be5491d92afca667546fed9792e4b1ee1
+
+commit 35ecbb5408ee3f4e84f70dc62da24666f0264303
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 15:01:27 2021 +0700
+
+    SRT-1792 [Service Test][Cisco][Ring 4][RL1.7.hotfix][3k route] Max metric after no shut single link- 222906e4437b362dd48d38ff580397fcb8f2d9b6
+
+commit 63623e14e8d7aaec84bb0d13d2f40964157d5c9c
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 14:55:07 2021 +0700
+
+    SRT-1761, Hostpd memory leak - 08cbc7dbb647963cb2fb4ce035466f66e15b48a7
+
+commit 1552dcbb665521201c447d7ba23062a995c86b09
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 14:52:22 2021 +0700
+
+    SRT-1761, Hostpd memory leak - 5a8e922985802fafefb809c5da79299659b9175e
+
+commit 0f0f3f5b143c607b2ee65003f3b82a604d3409c7
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 14:43:33 2021 +0700
+
+    SRT-1610, BFD bind unknow client- 00cd38e947edbc0fea2ee5058603990fc3825177
+
+commit ca1bdbaaa167c265f245e41995034a16cfeecc6d
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 14:37:47 2021 +0700
+
+    SRT-1646. Develop CLI showing route vpnv4 information from BGP neighbor - 2f3c4e24e06ef1084fe43f58b6d4f7df490a2f16
+
+commit bdb763aecca9ef814f14fac286b99e59a4a66459
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 14:36:00 2021 +0700
+
+    SRT-1540, [Service test][802.3ah] Interface detect link not exactly - e5fad501526404a1a42b60472c9c2fa3442d2d68
+
+commit 6d9f16a6b20b3640532483efb40877ae5bae00c5
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 14:33:28 2021 +0700
+
+    SRT-1656, [VTNETv2] LLDP send information default: Description trên interface, OS - a4e86190a00143aa151647f7e2bf409ece70f412
+
+commit 5349c2005945396f9cc4d7f8715c02ae89ee723b
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 14:32:13 2021 +0700
+
+    SRT-1735: Physical interface is still down after doing noshut - 084bc922956b0be3d133177853c7569b29b23b4a
+
+commit fdbca993bf8c7bf084012ef60e9449d9c6b95edd
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 14:27:00 2021 +0700
+
+    SRT-1728 [Service Test][Cisco][Ring 4][RL1.6] LDPD crashes when up single-link - b7fec53fd5a8c45a6179a4e3b2cb92dd1152e1c7
+
+commit c5c8f48abe272da32fc19ec0a82c9f22bee0a46e
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 14:04:32 2021 +0700
+
+    SRT-1594: Revise code for other cases - c8097444f22de9ff371b2d34d3397a26851c8a59
+
+commit d8c5243beb5144b62ee6e06e3955aa88f5d9d5d2
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 14:02:20 2021 +0700
+
+    SRT-1715 [Service test_TK][IP_SLA] IP SLA schedule start time now save the time when start - beb08b9634fd25aef9224d84eb981e753d7c100c
+
+commit 4ab4d6bdf9b9171241010ae6daffaf88fa9706ac
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 13:34:23 2021 +0700
+
+    SRT-1714. Increase the maximum number of syslog server- f787afd0b1fcae3485c1ad679437dcc82c484bd2
+
+commit df4a1227ab6cf75c16d897a2d758e54cacec49b2
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 13:33:00 2021 +0700
+
+    SRT-1711:HSL crash fix double free part2- 4343ad6f523efe349d265e9732b75b2e4f62ca41
+
+commit 60929b9ea4a989d3abfaa4f3edd11494cbc47f75
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 13:24:24 2021 +0700
+
+    SRT-1594: Both primary and secondary vc are active after rebooting DUTs - bd9a0448588830b481198147216fe9cc502deca0
+
+commit 679444cfe03be143360fe310f18653f30364a8d7
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 13:21:46 2021 +0700
+
+    HSL crash fix double free - be34e9413f91edec3da28c0c15a33050de2976dd
+
+commit b0ecec590c66a3fb600b10668282305983cd38a5
+Author: Nguyen Thanh Tien <tiennt30@viettel.com.vn>
+Date:   Fri Apr 16 11:08:36 2021 +0700
+
+    SRT-1282, interface resets couter - b220f50292bd2c295722e5431d13d89fffac9d54
+
+commit df3947e44a4b0b0125217acaea3606f265e76ec8
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Thu Apr 15 13:31:24 2021 +0700
+
+    XSRT-264 missing code
+
+commit 1d710bedaa063b5a7d8071205b14d39a06cb845c
+Author: vietnv26 <vietnv26@viettel.com.vn>
+Date:   Thu Apr 15 10:26:50 2021 +0700
+
+    XSRT-88: crash rsvp when no rsvp-trunk, delete code unused
+
+commit c03e62b25c81c27e6d372950147896d9a58c4feb
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Thu Apr 15 10:07:21 2021 +0700
+
+    XSRT-264 Fix solution
+
+commit cf1f04e2916b5d574bd7013bd93f46e6464d7f36
+Author: vietnv26 <vietnv26@viettel.com.vn>
+Date:   Thu Apr 15 09:41:26 2021 +0700
+
+    Revert "XSRT-88: crash rsvp when no rsvp-trunk"
+    
+    This reverts commit 5fd3825e5594603fa3b7271bdeaccd6c9efcec1c.
+
+commit d2b70c61e24974823dc96f07d911474dfef52e69
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Wed Apr 14 08:43:47 2021 +0700
+
+    XSRT-177 Fix storm-control for multicast packet
+
+commit febc0174f0e00d6b08ed1ac550bf5649d678d03f
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Tue Apr 13 18:05:54 2021 +0700
+
+    XSRT-264: l3_egress_create no resource available
+
+commit b6952e352b3a45c7c3d8cc007135e2e707a71d48
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Fri Apr 9 09:32:05 2021 +0700
+
+    XSRT-299 Fix load-interval not show counter
+
+commit 239975bc904805029dd6244e4423ec0d8629bd6a
+Author: vietnv26 <vietnv26@viettel.com.vn>
+Date:   Thu Apr 8 17:03:46 2021 +0700
+
+    XSRT-191: support ping/trace MPLS
+
+commit b2615b390f2e3549895a3919daadc82b02a8dba3
+Author: vietnv26 <vietnv26@viettel.com.vn>
+Date:   Thu Apr 8 16:43:40 2021 +0700
+
+    XSRT-104: Fix static route accept loopback address
+
+commit aabda5ee49d7aaa5828ff3769747ee65c63bb991
+Author: vietnv26 <vietnv26@viettel.com.vn>
+Date:   Thu Apr 8 16:37:14 2021 +0700
+
+    imish crash when telnet board via python script
+
+commit 5fd3825e5594603fa3b7271bdeaccd6c9efcec1c
+Author: vietnv26 <vietnv26@viettel.com.vn>
+Date:   Thu Apr 8 14:06:10 2021 +0700
+
+    XSRT-88: crash rsvp when no rsvp-trunk
+
+commit d1dc5d337635a6002c4b3b94fe64f3f3ee4ef81f
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Wed Apr 7 17:18:00 2021 +0700
+
+    Fix build Jenkins
+
+commit f5d31925c528854a5711c880b5083d7e69b8812a
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Wed Apr 7 15:32:09 2021 +0700
+
+    XSRT-287: Support Tacacs VRF
+
+commit 65507212804c67d73151a95652ebff8d8d5b147d
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Tue Apr 6 16:29:13 2021 +0700
+
+    XSRT-288 [3k routes] Crash when withdraw/import 3k routes continuosly
+
+commit 97c077d09d4bdc097d4867df3b63514b1ffc7296
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Mon Apr 5 14:39:23 2021 +0700
+
+    XSRT-164 Fix build
+
+commit 9f78462b4ca098fcff477ab088427f8f49aea729
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Fri Apr 2 11:14:34 2021 +0700
+
+    XSRT-164 Set default Don't Fragment bit to 0
+
+commit 79e0e1a1a1def3550e97cf2e65f1848c22300551
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Thu Apr 1 11:05:29 2021 +0700
+
+    XSRT-182: [PAT][QoS] Interface stop working after no traffic-shape
+
+commit 7c4957b11f45e988fc5d74b4efcf4b361955c653
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Wed Mar 31 17:41:29 2021 +0700
+
+    XSRT-214 [PAT - Management]: Support MIB for Queue and IP status
+
+commit ab7235e4e75368112cbe9e846cf2d08a4f85dbc3
+Author: tamnt79 <tamnt79@viettel.com.vn>
+Date:   Tue Mar 30 16:24:47 2021 +0700
+
+    Autorun zebos when bootup
+
+commit b85cb91c70c150ab9cba8916adadf98a51f85893
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Tue Mar 30 11:40:12 2021 +0700
+
+    XSRT-154, XSRT-156: Fix configurable ranges of parameters
+
+commit 8a95ab09ce1ccc23603d705ef3611ee9554f7323
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Mon Mar 29 17:47:05 2021 +0700
+
+    XSRT-212 [PAT - Management] SNMPv2 do not send trap when config power threshold
+
+commit 742ff4b08c716c1138fc604f55c9c6b982e8999c
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Mon Mar 29 13:30:52 2021 +0700
+
+    Revert "XSRT-176: packet untagged when going through trunk port"
+    
+    This reverts commit 11ab82737cdd6b26526042beffd9b36091a00157.
+
+commit a9df45c256d0f64a445554a7881bd55aa428b7b8
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Mon Mar 29 11:53:58 2021 +0700
+
+    XSRT-268: DST MAC 000000 in BFD HW
+
+commit 8cabdb6cfedffbb2f9f61917f18f5216d57f4f7a
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Mon Mar 29 11:51:11 2021 +0700
+
+    XSRT-230, XSRT-234, XSRT-243, XSRT-235: Fix L2 QoS Mapping, remark CoS in IP forwarding base on Queue
+
+commit 5e4a3dda263c44a8b2e461c994e1439c8efff86c
+Merge: 58ec4d9 0e44619
+Author: tamnt79 <tamnt79@viettel.com.vn>
+Date:   Mon Mar 29 11:39:59 2021 +0700
+
+    Merge branch 'master' of ssh://10.55.104.17:22/data/vttek/git/SRT-100G
+
+commit 58ec4d90346ea38e79da93bd95d5bc1c30fdf0ea
+Author: tamnt79 <tamnt79@viettel.com.vn>
+Date:   Mon Mar 29 11:38:41 2021 +0700
+
+    XSRT-280: Support SSM Mapping
+
+commit 0e44619732f9402056b90a079c6883ee83b9da08
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Mon Mar 29 10:59:34 2021 +0700
+
+    XSRT-276: remove bootup log
+
+commit 3f4dd22dce5d5644cf9b2eb3ca9119f0029074df
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Mon Mar 29 10:25:57 2021 +0700
+
+    XSRT-259 [porting] Adjust TE unconfig flow
+
+commit bbe227c665a703f93b8f70dc71ba27f5e64a3360
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Mon Mar 29 10:19:17 2021 +0700
+
+    XSRT-279: Modify SNMP information for IPMS
+
+commit c0e7903c6feb80244d904f172f20f1ac864874f1
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Mon Mar 29 10:08:41 2021 +0700
+
+    XSRT-272 Device hangs when flush 3k routes
+
+commit a4c975a0e4282c7b3a605e300cecdde71f146ed6
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Mon Mar 29 09:55:45 2021 +0700
+
+    Disable auto nego code causes: Hang NSM bootup & lag
+
+commit 1f6d3cda89e07544582b0a1b3f7c6c7ef0b94753
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Mon Mar 29 09:51:19 2021 +0700
+
+    XSRT-248 [Service test] Cannot show VRF routes
+
+commit 12706a4ab2d02dcc94933c7d7e9a17f9f68cb28a
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Wed Mar 24 13:38:54 2021 +0700
+
+    XSRT-42 Fix ARP not clear after aging time
+
+commit c614e7f46f1b39bbdf325de97f8da8d4080c6ee0
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Thu Mar 25 14:20:08 2021 +0700
+
+    XSRT-278: encapsulate label in RSVP tunnel
+
+commit 11ab82737cdd6b26526042beffd9b36091a00157
+Author: Tran Van Ha <hatv33@viettel.com.vn>
+Date:   Wed Mar 24 11:06:24 2021 +0700
+
+    XSRT-176: packet untagged when going through trunk port
+
+commit 3c928c03604e7aba70951deb9fbf37a6719a024e
+Author: tamnt79 <tamnt79@viettel.com.vn>
+Date:   Wed Mar 24 09:40:05 2021 +0700
+
+    XSRT-213: Additional case when ports are configured
+
+commit a538ad48b2ac14a0b1248504e463a2969be06d61
+Author: tamnt79 <tamnt79@viettel.com.vn>
+Date:   Wed Mar 24 09:36:28 2021 +0700
+
+    Fix Add auto negotiation: modify num of interfaces for EDGECORE
+
+commit 5e84f0e1709f87dca82ba099b5ab995e16c3e978
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Tue Mar 23 15:39:25 2021 +0700
+
+    XSRT-276: HSL crash by sub-interface counter --> FIX_LATER_WITH_SUB_INTERFACE_COUNTER
+
+commit d2b396b1a3f2863c672320af9eb84eaf2c816dfc
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Fri Mar 19 15:43:32 2021 +0700
+
+    XSRT-253: Support PPPoE+
+
+commit dcfc107fdbc965e2bee2f57ce2b4c8b9b71e3731
+Author: Nguyen Dinh Huy <huynd37@viettel.com.vn>
+Date:   Thu Mar 18 16:37:29 2021 +0700
+
+    XSRT-71 [OSPF] Arrival LSA Timers not work with LSA type 5
+
+commit dcb63bc8bea0f1dba70c06ca2c2a5ce32cba103b
+Author: tamnt79 <tamnt79@viettel.com.vn>
+Date:   Wed Mar 17 09:00:38 2021 +0700
+
+    XSRT-213: Show Rx/Tx power and alarm on SFP/QSFP ports
+
+commit 7c6b75010e140a4358883e728c44061f17fb09f4
+Author: Nguyen Dinh Huy <huynd37@viettel.com.vn>
+Date:   Mon Mar 15 16:23:52 2021 +0700
+
+    XSRT-69 [OSPF]: LSA Throttle not work
+
+commit f2b4a53c4e3ea64762a097787799ed8f3cf7d8bc
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Mon Mar 15 13:55:08 2021 +0700
+
+    XSRT-194 & XSRT-223: Fix bug LACP-BFD
+
+commit 0461e89a1ea731e0ff92eaae1f5777754b2fb7dc
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Thu Mar 11 14:46:10 2021 +0700
+
+    XSRT-248 [SRT100G] Traffic L3VPN SRT-PE drop when AGG down
+
+commit c2330c2737ff5636d2b7f3851b89744ea566e858
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Mar 10 16:49:45 2021 +0700
+
+    XSRT-258 [SRT100G] HSL crashes when booting up - add L3VPN routes (Edit ptree locking)
+
+commit 33164566e8485d423ad0e524df0ea991dc3bc3f2
+Author: Nguyen Dinh Huy <huynd37@viettel.com.vn>
+Date:   Tue Mar 9 16:23:42 2021 +0700
+
+    XSRT-68 [OSPF]: LSA type 3,4,5 can not install to Routing Table in P2MP link
+
+commit 1da859a0205e2e8e86220cb0439bf8eb504fe138
+Author: khanhnp1 <khanhnp1@viettel.com.vn>
+Date:   Fri Mar 5 17:41:03 2021 +0700
+
+    Fix hang switchport on UFI
+
+commit 5843d91f98d640b87bfb9ff76d962b3f20925e10
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Fri Mar 5 13:55:21 2021 +0700
+
+    XSRT-220: the arp process does not run when configuring static IP or receving the unknown mac-address traffic
+
+commit a5a3bbe70f53354eb5deb7c6e121b56725f07665
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Fri Mar 5 10:47:52 2021 +0700
+
+    khanhnp1: incorrect initialization PHY
+
+commit 2d94fefa6d6ebf5bb2a3b12337b6c93a9abaee28
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Thu Mar 4 17:43:01 2021 +0700
+
+    Stop build on first error
+
+commit 3d5f254519df411581f10a58fd164d0f4568a774
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Thu Mar 4 10:26:19 2021 +0700
+
+    XSRT-162 XSRT-226: Porting input QoS Policing and add command class-default for QoS Policy-map
+
+commit bc90b2a06ef09ef0848dd1166a83f344f47a85d8
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Thu Mar 4 09:48:09 2021 +0700
+
+    XSRT-251 [SRT100G] Resolve conflict with SRT-1626-27 solution, plz pay attention
+
+commit e36cca128448443a95d7c9896e96883c5c246eb3
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Mar 3 14:30:36 2021 +0700
+
+    XSRT-251 [SRT100G][L2/L3VPN][MPLS-TE Hotstandby] missing code
+
+commit d26a2dd8672f185cc71c319b11324b7f3d8428c8
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Mar 3 09:45:00 2021 +0700
+
+    XSRT-251 [SRT100G][L2/L3VPN][MPLS-TE Hotstandby] TE LSP doesn't update label
+
+commit 1fba0a2247496ed519d818c48dbd96c2f22f772b
+Author: Nguyen Dinh Huy <huynd37@viettel.com.vn>
+Date:   Tue Mar 2 14:14:39 2021 +0700
+
+    XSRT-67[OSPF]: Wrong metric and metric-type value when set default-information originate always
+
+commit 7cdf1af5075beb0e14a589fe2de2f38863bb7190
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Fri Feb 26 16:04:19 2021 +0700
+
+    XSRT-87: PE2, CE2 cannot ping to PE1 in L3VPN: fixed
+
+commit f6fa66f473f7ecfe80d2c7c6296240f364f30519
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Fri Feb 26 14:57:03 2021 +0700
+
+    XSRT-225 [SNMP-VRF]: Additional get system uptime
+
+commit 3466195b5d40935a20fa1ac5200424c51a25d781
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Fri Feb 26 11:44:37 2021 +0700
+
+    XSRT-225 [SNMP-VRF]: Get system Uptime
+
+commit 2cf95475edbce04cfbdc68cd87018089692f089d
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Thu Feb 25 16:23:59 2021 +0700
+
+    XSRT-236: add CLI to syslog
+
+commit ab80dc17927bf657ab3a32cb3ad51cefe93e52bf
+Merge: 0bfe5ab 7ab3945
+Author: khanhnp1 <khanhnp1@viettel.com.vn>
+Date:   Thu Feb 25 15:09:34 2021 +0700
+
+    Merge branch 'master' of ssh://10.55.104.17:22/data/vttek/git/SRT-100G
+
+commit 0bfe5abe27c3fb46a16a5f1192202494438ac061
+Author: khanhnp1 <khanhnp1@viettel.com.vn>
+Date:   Thu Feb 25 15:06:15 2021 +0700
+
+    Fix hang show running config
+
+commit 7ab3945f4e8eb67485287a7d31c1778cb9d91a6a
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Thu Feb 25 14:47:25 2021 +0700
+
+    Auto nego error log when linkdown: Temporary deletion
+
+commit f482d74b15d62e44dd03086b5166c92078326544
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Thu Feb 25 11:00:11 2021 +0700
+
+    XSRT-221 Revert commit causes HSL crash
+
+commit 4820890b2ac29b3a59d4376b6d2954569d204384
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 17:22:57 2021 +0700
+
+    XSRT-248 [Service test] Traffic L3VPN lost when shutdown link beside AGGG
+
+commit 75f2c90ce84b0a85dd364c573a058909e8e698c9
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 16:41:49 2021 +0700
+
+    XSRT-248 L3VPN traffic lost when shut down 3 links AGG2
+
+commit 753b8ebcfd9f29b9c8ef1cfaf3c4802b6413877d
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 16:07:13 2021 +0700
+
+    XSRT-248 [Service test] L2/L3VPN traffic lost after reboot
+
+commit 341a093be5f69a8cd7820db9020ddf8b878241d9
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 15:31:26 2021 +0700
+
+    XSRT-248 Pri/Sec status can't be switched after rebooting & l2VPN traffic lost
+
+commit 06e5baccdf2e4d30e916f901c473900850fb440a
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 15:24:47 2021 +0700
+
+    XSRT-248 L2/L3VPN traffic lost after rebooting
+
+commit c71011e49658f11b473c67efa619b0f7927c879e
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 15:14:19 2021 +0700
+
+    XSRT-248 L2/L3VPN traffic lost when noshut AGG2
+
+commit b2af9a5a114bbfb8bcad3592ae5e2b06cf490dbc
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 15:06:02 2021 +0700
+
+    XSRT-248 [Service test] LDP session cannt be UP after rebooting topology
+
+commit 3a7723a5a16387a18b9c49f8786ffd669ab58125
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 15:03:15 2021 +0700
+
+    XSRT-248 [Service test] L2/L3 traffic lost when noshut multilink
+
+commit 73aa5c93b5eb98529fe319a6d95d75148cbb0aff
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 15:00:03 2021 +0700
+
+    XSRT-248 [Service] L2/L3VPN traffic drop when shutting down multilinks
+
+commit 11c178a1fe03f6d8a3e183d339e90d4b0d8e1005
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 14:35:08 2021 +0700
+
+    XSRT-248 [SRT100G][Service test] L2VPN traffic lost forever when noshut multilink
+
+commit 2fb89d3f074d4a27749884c42cda2e75c4bf58d4
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Wed Feb 24 14:27:27 2021 +0700
+
+    XSRT-249 [SNMP-VRF]: Log snmpd using deprecated sysctl
+
+commit f14586fa39163c992cbabd6da348dd8e5e0f2061
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Wed Feb 24 13:53:48 2021 +0700
+
+    XSDRT-131 XSRT-132 Fix vlan-mapping outbound
+
+commit 0fbee5a4cb9c4e2608c4b472e41c69d8fecdfc6e
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Tue Feb 2 09:43:21 2021 +0700
+
+    XSRT-130 Remove vlan-mapping config when remove vlan
+
+commit 80dcf814203ce026a7f746b6dabc352fbd723c59
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Wed Jan 6 10:40:44 2021 +0700
+
+    XSRT-128, XSRT-129 Fix show vlan-mapping config
+
+commit 0c9e939b0950965a5b4d770f0e0249f5dc46f3f3
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 11:19:09 2021 +0700
+
+    XSRT-248 [Service Test] L3VPN traffic loss in some cases
+
+commit d4f609e40aa690a86f0a3619e11e1f11137dd2db
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 10:41:57 2021 +0700
+
+    XSRT-248 [SRT100G][Service Test] Primary path isnt best path when reoptimizing
+
+commit 5a022f2f7200c19fa6edb7897c2260496cb0f984
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 10:22:50 2021 +0700
+
+    XSRT-247 HSL Crash when no shut multilink
+
+commit 9eab29e8a14db6dd65435ca0040c7776dfcfb497
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 10:17:38 2021 +0700
+
+    XSRT-246 EFM packet continuosly be sent out DOWN interface
+
+commit 9259e9927bf468c0baa3861d5017593f64ae8cc6
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Feb 24 09:59:46 2021 +0700
+
+    XSRT-204 RSVP cannot UP with AGG after reboot
+
+commit af7a131495bc39d303c364431f218a3375bab9fb
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Tue Feb 23 15:31:28 2021 +0700
+
+    XSRT-224 [SNMP-VRF]: Error Invalid VRF
+
+commit aa442481c733a3566b660aa2fe5b6aec96dbd9bf
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Tue Feb 23 14:15:03 2021 +0700
+
+    XSRT-97: Side effect SNMP-VRF when add IP for interface loopback
+
+commit 8643201e727c3c5d9a5fac9823918f3a39d21b31
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Tue Feb 23 14:09:21 2021 +0700
+
+    XSRT-196, XSRT-197, XSRT-202, XSRT-207: Fix BGP BFD dead interval bug
+
+commit fd4b0fb63e2fcfdd2779523b338df404346e689d
+Author: Nguyen Dinh Huy <huynd37@viettel.com.vn>
+Date:   Tue Feb 23 11:45:20 2021 +0700
+
+    XSRT-66 [OSPF]: Default-information originate not run with route-map
+
+commit 051935797b53400cdd6aac848bdd6a774228866c
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Mon Feb 22 11:23:12 2021 +0700
+
+    XSRT-169: add uRPF loose mode
+
+commit 069154f1bf4b94776cdd9bbaf2811ba1f6bd48c6
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Mon Feb 22 11:14:01 2021 +0700
+
+    XSRT-231 XSRT-232 L3VPN prefix can't be deleted completely when withdrawing all routes
+
+commit e8c7691d623cecb80d1f31a3b39f132a52115498
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Fri Feb 19 14:42:56 2021 +0700
+
+    XSRT-229: clean unnessesary log when configuring vrf
+
+commit 476de0997a4c99d9290716e2f14ccac783852656
+Author: khanhnp1 <khanhnp1@viettel.com.vn>
+Date:   Thu Feb 18 08:47:27 2021 +0700
+
+    Fix error build edge core
+
+commit b5797e31f25603207bcd006a6a809e50eba1b470
+Author: khanhnp1 <khanhnp1@viettel.com.vn>
+Date:   Wed Feb 17 17:02:36 2021 +0700
+
+    Fix error build for edgcore
+
+commit 0126bac62d107f71d4340a9cafb3aa55460176de
+Author: khanhnp1 <khanhnp1@viettel.com.vn>
+Date:   Tue Feb 16 11:37:03 2021 +0700
+
+    Add auto negotiation
+
+commit 9c4be19c7232eb82617ccafc4cda59ea840c94ef
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Thu Feb 4 14:04:33 2021 +0700
+
+    XSRT-122 [SNMP-VRF]: Get wrong System Name
+
+commit 2ead1502c9fd98a78109402727fff96fc049d6ee
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Thu Feb 4 11:03:24 2021 +0700
+
+    XSRT-227: HSL crash when config rsvp
+
+commit 436d6ac0d5c71b87adcf821c4d76a461763958b6
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Tue Feb 2 15:27:42 2021 +0700
+
+    XSRT-121: Delete SNMP VRF config when VRF deleted
+
+commit d8de042503e38cfd0ab37601098c156f06d151b2
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Tue Feb 2 08:34:16 2021 +0700
+
+    XSRT-115,XSRT-116,XSRT-117,XSRT-118,XSRT-119: Error config SNMP VRF host
+
+commit c29f89839a24c86781ab27b49f04b26af2d28b92
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Mon Feb 1 11:56:28 2021 +0700
+
+    XSR-218: traffic could not foward among vlan interfaces
+
+commit 8e54e4f2f91ac79fbad3f08d4a7b43580620a75f
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Fri Jan 29 16:02:18 2021 +0700
+
+    XSRT-96: Porting code SNMPv2,v3
+
+commit c79c2191e11c5dcd7ed4d5a413c019ef5099aa20
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Fri Jan 29 10:05:37 2021 +0700
+
+    Supplement to the fixes of XSRT-154, XSRT-155 & XSRT-156
+
+commit c38674e8ba7134a6db58d62b1c5178e528cd42a7
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Tue Jan 26 16:14:53 2021 +0700
+
+    XSRT-221 [SRT100G] HW error when add/delte L3VPN route continuosly
+
+commit 53e01cd6a502e08a40827d22009e99785efc2ccc
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Tue Jan 26 16:02:44 2021 +0700
+
+    XSRT-136 [SRT100G] L3VPN cannot add/delete 3k routes
+
+commit bd39f37596504d2f5dd28ff4a50c7a3c4c0f5a93
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Tue Jan 26 09:19:36 2021 +0700
+
+    XSRT-175: Support User Management
+
+commit b3ee47bc88181b2467e83d717c7c697c4c764e03
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Tue Jan 26 08:07:40 2021 +0700
+
+    XSRT-162: Porting QOS Classification and Marking
+
+commit b00bdd06f6da23c7bd510008a69ab1b18e000ee5
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Tue Jan 26 08:09:13 2021 +0700
+
+    XSRT-156: WRED & Taildrop
+
+commit 5b3be644609e53566a5ce545e40047b90d02cc6d
+Author: Nguyen Dinh Huy <huynd37@viettel.com.vn>
+Date:   Mon Jan 18 09:51:33 2021 +0700
+
+    PBR: Fix PBR not run when remove then add VLAN again
+
+commit 95b7bf08cf5684a333b2d920d47aecec633b9441
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Fri Jan 15 16:41:18 2021 +0700
+
+    XSRT-216: Enable RSVP Bundle message
+
+commit 9cc1aec87c6ccfd7398d5d3620b593cd2aedf0f3
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Wed Jan 13 14:44:15 2021 +0700
+
+    XSRT-179: Shaping rates for queues
+
+commit eda37463a9e9aa1efec177dbd5af9dee68724006
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Wed Jan 13 10:54:29 2021 +0700
+
+    XSRT-158: could not configure IP and VRF on vlan interface
+
+commit 7de974bc3705ccb7fdeeeb10c1601ed4ec7c7978
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Wed Jan 13 09:25:33 2021 +0700
+
+    XSRT-178: Support build in Jenkins
+
+commit 12c31b1b06d3d8ba6229cea386ac496fc2708225
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Mon Jan 4 09:46:29 2021 +0000
+
+    XSRT-87: Set default df-bit of ping to 0
+
+commit 73770f2961d1b926ee811f7a6431c1b8279d9051
+Author: Nguyen Dinh Huy <huynd37@viettel.com.vn>
+Date:   Sat Jan 9 08:30:31 2021 +0700
+
+    XSRT-166: Support Policy-Based Routing
+
+commit bfe11eab1b94f7e8ec4da5b12ee2f02d722a7d93
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Fri Jan 8 17:16:23 2021 +0700
+
+    XSRT-149: Unified MPLS porting
+
+commit ec1b13d7d4c69209cdc3ce2660ec4eaa3e45bf0d
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Thu Jan 7 11:24:49 2021 +0700
+
+    XSRT-135: Add .gitignore for libpam-tacacs and shadow
+
+commit a2ec490f6c7ba4cb417853462107a662fb7f550d
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Thu Jan 7 10:33:12 2021 +0700
+
+    XSRT-163 XSRT-143 QoS Scheduling causes side-effect to L2VPN
+
+commit a0a888affb80a0f1aba522d88ad2a99d623bbdba
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Thu Jan 7 09:43:57 2021 +0700
+
+    XSRT-135: Add lost file libpam-tacacs and shadow
+
+commit 8d2282294d3c4ef7afaa2daecb2f86f6044601d1
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Wed Jan 6 15:48:06 2021 +0700
+
+    XSRT-89: Fix bug Port Mirroring
+
+commit b11b2897435d72d617c9a3653b54e498b3a27f3e
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Wed Jan 6 15:09:12 2021 +0700
+
+    XSRT-135: Add .gitignore of package shadow
+
+commit 81ff92c35d89d513e6938c4fd7d799d68d6c518f
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Wed Jan 6 11:32:49 2021 +0700
+
+    XSRT-142: Porting MPLS QoS Mapping
+
+commit 614ecec1865241fe2352794b17b661cfb4bc8756
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Tue Jan 5 18:33:27 2021 +0700
+
+    XSRT-135: Support Telnet TACACS+
+
+commit 4170141938f7fcd120299b091dc1ec0a3c2f045f
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Wed Dec 30 13:55:46 2020 +0700
+
+    XSRT-161: enable telnet-server
+
+commit d712dfcf66e0a913d617e4d6166fccb7c87d5bf3
+Author: tamnt79 <tamnt79@viettel.com.vn>
+Date:   Wed Dec 30 08:47:41 2020 +0700
+
+    XSRT-160: fix bug related to remap eth0 and ma1
+
+commit 6c5168cff13925e104b241e7dabe98ddcf63c8b6
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Tue Dec 29 17:14:41 2020 +0700
+
+    XSRT-154, XSRT-155: Fix shaping rates under 300 Mbps and burst size max
+
+commit adf8c309bad851b480a3932068d0c00e32c086cb
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Fri Dec 18 10:06:29 2020 +0700
+
+    XSRT-135: Support SSH TACACS+
+
+commit 1cca2f0b7b94eaf4f43c4f6b2cd4e6d2ef690cc5
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Tue Dec 15 16:09:46 2020 +0700
+
+    XSRT-141: Porting L3 QoS Mapping
+
+commit 69c626dbd9aad2bb492a0b40409cb9ee8f5a359e
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Fri Dec 4 17:58:28 2020 +0700
+
+    XSRT-143: QoS Scheduling
+
+commit 3cde6b0d6a0915e1d042932abe502efb661d36d3
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Fri Dec 4 15:26:03 2020 +0700
+
+    XSRT-112 XSRT-113 XSRT-14 XSRT-145 Implement L2VPN backup Hotstanby for SRT100G
+
+commit 3faf2b1de9e44df92bd60088b6df6e3c7d29d5ab
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Thu Dec 3 14:40:17 2020 +0700
+
+    XSRT-73: [XSRT][L3VPN] ping PE-PE packet has only LDP label (does not have VPN label).
+
+commit ac244d9887b522c692c22d947f1a0ac01aa63a8e
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Thu Dec 3 09:50:36 2020 +0700
+
+    XSRT-140:kernel panic- enable slub sanity check and User tracking
+
+commit 6647d90058686e01070679ce5594d7feaf5aa0d0
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Wed Dec 2 07:23:22 2020 +0700
+
+    XSRT-138: [QoS] Porting L2 QoS Mappings
+
+commit 46c781e4dca2bbf9d1b9d5acc273641a9a202648
+Merge: 596750e b3abed1
+Author: khanhnp1 <khanhnp1@viettel.com.vn>
+Date:   Thu Nov 19 16:57:15 2020 +0700
+
+    Merge branch 'master' of ssh://10.55.104.17:22/data/vttek/git/SRT-100G
+
+commit 596750e21ef387591fbb1c5f56a8e77b319c377d
+Author: khanhnp1 <khanhnp1@viettel.com.vn>
+Date:   Thu Nov 19 16:56:43 2020 +0700
+
+    Add config speed for UFI
+
+commit b3abed121f15edeb9dd1b17d09484c4e336e9ba9
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Thu Nov 19 09:06:40 2020 +0700
+
+    XSRT-78: [LACP] Limit number of ports in an Aggregator to 8
+
+commit 41269b3a96180ea3d189f6e442d62f4b5dcecc58
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Wed Nov 18 15:01:01 2020 +0700
+
+    XSRT-127: L2vpn subinterface implementation
+
+commit b2b0ecdfd3071972ce89c0be8d9f46cf58c3b6af
+Author: khanhnp1 <khanhnp1@viettel.com.vn>
+Date:   Wed Nov 18 14:28:33 2020 +0700
+
+    Fix error build
+
+commit bc15c90123b43bf4b29683636a3097acbd04b277
+Author: khanhnp1 <khanhnp1@viettel.com.vn>
+Date:   Wed Nov 18 10:24:15 2020 +0700
+
+    UFI PHY Initialize, set speed for interface
+
+commit 25e13e4fd35e4829bf0e41a8fb0fe994c06dc522
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Tue Nov 17 10:49:30 2020 +0700
+
+    XSRT-101: add DHCP Relay feature and options 82
+
+commit cccec432b01737eda6047ff99fea0b5eecc5f969
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Sat Nov 14 15:35:03 2020 +0700
+
+    XSRT-114: Build ONL with full sdk, zebos binary
+
+commit 7276fff3f7b9286067bf70eb14376d0affa2c7a2
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Wed Nov 11 14:14:44 2020 +0700
+
+    XSRT-97 Fix interface loopback0 secondary IP
+
+commit 884420842affa056303e01ebf65feed24e41a3ff
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Tue Nov 10 10:01:54 2020 +0700
+
+    XSRT-95 Implement Storm-control
+
+commit 523ad74b1e3b4adddc7686358e5b0be344986b60
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Mon Nov 9 14:43:45 2020 +0700
+
+    XSRT-102: show snmp for SNMP VRF
+
+commit 5c78a7425911051996f1fe93eec9cb8eec53d0e2
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Mon Nov 9 10:56:31 2020 +0700
+
+    XSRT-102: Support SNMPv2,v3 via VRF
+
+commit bdc1d0710251d2a51785d31f8ece5ceb2b242b81
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Sat Nov 7 16:42:23 2020 +0700
+
+    XSRT-63: Support System Monitor on EdgeCore, adding voltages
+
+commit 407996c4c710b45aa7e5511a24236ea669240248
+Author: Tran Ngoc Hung <hungtn16@viettel.com.vn>
+Date:   Sat Nov 7 16:10:07 2020 +0700
+
+    XSRT-110: configure BFD hardware
+
+commit 369a8c54ad44633e9bbf5d793cad7dba60f0e2b5
+Author: Nguyen Dinh Huy <huynd37@viettel.com.vn>
+Date:   Thu Nov 5 11:42:10 2020 +0700
+
+    XSRT-103: Support PIM Sparse Mode
+
+commit dd2b43a38d50a160a5d62e6fcf9b784dc82d567d
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Mon Nov 2 13:33:04 2020 +0700
+
+    XSRT-79 XSRT-81 XSRT-82 XSRT-90 Implement MPLS-TE Hotstandby for L3VPN
+
+commit 972e5ecc91efbf6f9d4776169d8aa065c4b7e961
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Fri Oct 30 16:20:24 2020 +0700
+
+    XSRT-96: Porting code support SNMPv2,v3
+
+commit bb9ac8cf9781b93bbf4d6958aa2817e3d7593f39
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Fri Oct 30 14:00:16 2020 +0700
+
+    XSRT-63: Support System Monitor, reducing latency
+
+commit 3dbf825aff1f858cc4d157af04cf9fc6dba62534
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Fri Oct 30 09:58:40 2020 +0700
+
+    XSRT-101: add DHCP-4.1-ESV-R7 package
+
+commit f78006671cb00efb23f652da561b92ca31af1f7a
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Thu Oct 29 10:53:46 2020 +0700
+
+    XSRT-96: Support SNMPv2,v3
+
+commit c1f80a20a40b04df5bc75b7eff82f81f413af1a8
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Tue Oct 27 16:37:39 2020 +0700
+
+    XSRT-63: Support System Info on EdgeCore, fixed 12.0V
+
+commit 39290a52d437ba61e3bfe34109d4f7976b240af2
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Fri Oct 23 17:29:56 2020 +0700
+
+    XSRT-63: Support System Monitor on EdgeCore
+
+commit 66a84900c7f9a8691e4bca8f7ae15ec0c4629201
+Author: Tien Nguyen <tiennt30@viettel.com.vn>
+Date:   Tue Oct 20 10:42:55 2020 +0700
+
+    XSRT-86: L2VPN does not work
+
+commit fb51c983a6c8f7f256ae0259050e1cffe8665fd1
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Thu Oct 15 15:02:46 2020 +0700
+
+    XSRT-83: Support Telnet-Server, SSH-Server for VRF
+
+commit bd28e6d9a0da143eb78e9392dcc802eae1445fa3
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Thu Oct 15 08:49:41 2020 +0700
+
+    XSRT-85 Fix ping inteface vlan
+
+commit c63484cebb0eb71a87782841ee27a90a27feb7ab
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Wed Oct 14 09:50:04 2020 +0700
+
+    XSRT-72: Porting feature Access Control List
+
+commit 12dbb64b90a9625ed2cfc019ff96dfa68f437e12
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Tue Oct 6 11:14:07 2020 +0700
+
+    XSRT-60 Add clear vlan-mapping config
+
+commit e299666d251aea4cf0d315738c94810216537543
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Sat Oct 3 11:11:12 2020 +0700
+
+    XSRT-60 add init vlan-editing profile
+
+commit dac72c445c05568d94dc109b60e77f1d6dbb8285
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Tue Sep 29 16:58:36 2020 +0700
+
+    XSRT-60 Add config vlan-mapping
+
+commit 6ba333a501fca0f39d38e1e2ef506bffb44b2785
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Wed Sep 23 11:16:19 2020 +0700
+
+    XSRT-60 Porting vlan-mapping
+
+commit a09dd70db8235c3175334397cd28e353a027d9f0
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Wed Sep 30 12:45:33 2020 +0700
+
+    XSRT-76: support telnet via VRF
+
+commit 2204b05e3666e43df429731edfbe96c80d9f84e5
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Tue Sep 29 08:03:49 2020 +0700
+
+    XSRT-26: Fix error warnings of Jumbo Frame
+
+commit 20a7db4f36f9cd89df3ebb28714b5e3f0fa4b510
+Author: Hua Thai Chau <chauht3@viettel.com.vn>
+Date:   Wed Sep 23 10:13:04 2020 +0700
+
+    XSRT-62: Support IP SLA and add packages build ONL
+
+commit 8954b7fcd3a6097726c2e27b4de7d022a9900281
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Thu Sep 17 15:47:05 2020 +0700
+
+    Add folder env
+
+commit 8bdee973ad3d3800ae7706459f7cf623a475d1c4
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Thu Sep 17 13:51:56 2020 +0700
+
+    XSRT-64: Wrong reply-mode when ping mpls ldp
+
+commit bf2ce46c41fd7464d4b42b9fc2dbb6201af9d3b0
+Author: Tran Ngoc Hung <hungtn16@viettel.com.vn>
+Date:   Thu Sep 17 12:29:52 2020 +0700
+
+    fix BFD init session
+
+commit b1c40c5e92f118811d2deddc886f3ae36051d6c0
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Thu Sep 17 11:32:08 2020 +0700
+
+    XSRT-63: Support System Monitor on UFI
+
+commit bcdceefee208aef87fffb6624b63642d05e30e28
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Tue Sep 15 09:09:56 2020 +0700
+
+    XSRT-61: ONMD core dump when reboot
+
+commit 9b4e5b56652d6d499f70755de1d942ad2e2b55e6
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Thu Sep 10 14:19:47 2020 +0700
+
+    XSRT-46: Porting Loop Detection feature
+
+commit 4e84d73a51c7ac303ef9476b6ec02dcf48c4366c
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Thu Sep 10 11:15:55 2020 +0700
+
+    XSRT-38 [SRT100G] RSVP Explicit NULL doesnot work
+
+commit b4a02647fa3d51611dc817224b49c4ebadae0e38
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Thu Sep 10 11:14:15 2020 +0700
+
+    XSRT-37 XSRT-39 [SRT100G] Enable RSVP in SRT100G and L3VPN works with RSVP
+
+commit 01ad2c8b7e72015d14ed9506810b85114c96fae7
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Wed Sep 9 10:31:41 2020 +0700
+
+    Modify git ignore for building UFI
+
+commit df0979ebd8a873df2af36ab0e614d123d9579440
+Author: Tran Ngoc Hung <hungtn16@viettel.com.vn>
+Date:   Tue Sep 8 11:16:58 2020 +0700
+
+    edit build ufi script
+
+commit 85bb4cf29efb7a52580c7670ef216fc1bcded2d0
+Author: Tran Ngoc Hung <hungtn16@viettel.com.vn>
+Date:   Mon Sep 7 17:54:35 2020 +0700
+
+    Add Ufispace
+
+commit a22dcc4f7f19873b5dabfc1efc6997901c5a1c31
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Mon Sep 7 11:15:03 2020 +0700
+
+    Fix l2 sync_up coredump
+
+commit 25649354044f39d9bf47bdc6ebf342d5d50a1e38
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Sat Sep 5 10:50:15 2020 +0700
+
+    XSRT-22 Fix can't SSH after start ZebOS
+
+commit 8f0ddc092b62af593f156ea8ad5ad8353253553c
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Thu Sep 3 11:09:49 2020 +0700
+
+    Add SDK and ZebOS build options
+
+commit 14dae5a68ab3f6d400ee4a3af6d2e868a52b49b7
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Fri Aug 28 13:53:59 2020 +0700
+
+    Remove switchport limit learning
+
+commit 0fdb8f2c2cfada582eaaa6fb4a8193be11f4d658
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Thu Aug 27 17:38:06 2020 +0700
+
+    XSRT-47 Fix mac move coredump
+
+commit f574476a9c83186cd397bd1854f2c675f90b938b
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Thu Aug 27 17:24:24 2020 +0700
+
+    XSRT-33 XSRT-35 missing code
+
+commit 0ac5c91b7d5e7f8bd7f76f88da92c3ca1eca882e
+Author: Nguyen Tien <tiennt30@viettel.com.vn>
+Date:   Thu Aug 27 13:44:03 2020 +0700
+
+    XSRT-19: L3VPN does not work
+
+commit e8dd60332e3da8f496b0ce211593654b1aa50297
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Aug 26 14:55:07 2020 +0700
+
+    XSRT-36 Support MPLS PHP action
+
+commit 83cb2175b44e1efc04531d13bbeb24f4ea60b3c7
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Aug 26 14:52:46 2020 +0700
+
+    XSRT-33 XSRT-35 Support MPLS swapping action
+
+commit 222c3100b935b70285ba1684df84f322b314d26b
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Aug 26 14:17:39 2020 +0700
+
+    XSRT-19 refine source code
+
+commit 890a05235a93fe1f045060192bfd02c6a9e94df5
+Author: Nguyen Tien <tiennt30@viettel.com.vn>
+Date:   Tue Aug 25 17:33:24 2020 +0700
+
+    XSRT-19:L3VPN with RSVP
+
+commit 941640f63a22211a27a36b0d6694ada2e24630f6
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Wed Aug 19 10:20:41 2020 +0700
+
+    XSRT-40: Porting ping/traceroute via VRF features
+
+commit c518858aeada94c3e618abaa88e751fc7cae25a0
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Thu Aug 13 16:17:34 2020 +0700
+
+    XSRT-34 ports have same lif_index 1 when configure L2 interface (swport and bri-group)
+
+commit a5f907bdf8294daef9a04865642689023b5ee54d
+Author: Huynh Nhat Tu <tuhn4@viettel.com.vn>
+Date:   Fri Aug 7 09:30:14 2020 +0700
+
+    XSRT-31: Porting LACP feature
+
+commit e8b353f698b5a3d0f16a5bb6076cfab99a4718c6
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Wed Aug 5 01:02:46 2020 +0000
+
+    XSRT-27 Fix MAC aging time && CLI MAC learning
+
+commit 14b1574126ea868c7ac930dc3c06262392d2ac33
+Author: Nguyen Duc An <annd136@viettel.com.vn>
+Date:   Mon Aug 3 17:54:55 2020 +0700
+
+    Build ONL without internet
+
+commit 5b3945ce1a8a138233af52b51c9dd1b262bec3a6
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Fri Jul 31 14:40:49 2020 +0700
+
+    XSRT-26: Jumbo frame
+
+commit e26f0dfd940a71f6f28962485127a7b787e6f77a
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Jul 29 17:33:50 2020 +0700
+
+    XSRT-24 [SRT100G] Develop VLAN feature: VLAN access port accept other VLAN tag
+
+commit a695c694be5f705fb4324e6957220f1f43a92ec0
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed Jul 29 17:30:26 2020 +0700
+
+    XSRT-25 [SRT100G] Power redundant configuration
+
+commit c0c54507460187ff63aee733af2f6122e9b17617
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Wed Jul 29 08:39:46 2020 +0700
+
+    XSRT-18 Implement Mac-move
+
+commit f8a2aff0991bdd01fec5eac99ecae07e1411ca57
+Author: Nguyen Tien <tiennt30@viettel.com.vn>
+Date:   Mon Jul 20 16:18:22 2020 +0700
+
+    XSRT-19: L3VPN:fix implicit-null does not work
+
+commit be1c41ac97d5018e4df7eec342cd438b9907df9a
+Author: Nguyen Sy Duc <ducns3@viettel.com.vn>
+Date:   Thu Jul 16 03:50:25 2020 +0000
+
+    XSRT-20: Porting EFM feature (802.3ah)
+
+commit 2011c062a602abb5cc02bb59827b2933adb0db8f
+Author: Nguyen Tien <tiennt30@viettel.com.vn>
+Date:   Wed Jul 15 16:57:44 2020 +0700
+
+    XSRT-19:L3VPN adding hsl-helper db
+
+commit 6b1a0c099bd77138f5a2c6459eea56bc1a00f8d6
+Author: Nguyen Tien <tiennt30@viettel.com.vn>
+Date:   Mon Jul 13 16:37:45 2020 +0700
+
+    XSRT-19:L3VPN could not create vrf if in kernel
+
+commit 9af3d3e130ad713344a41a2ee7fb1189b74bc743
+Author: Mai Thien Quang <quangmt2@viettel.com.vn>
+Date:   Mon Jul 13 02:24:13 2020 +0000
+
+    XSRT-16 Fix MAC aging
+
+commit 6e107f05901d53c813916036e24af5c6e8a1e96f
+Author: Nguyen Duy Tan <tannd27@viettel.com.vn>
+Date:   Thu Jul 9 02:33:47 2020 +0000
+
+    XSRT-15: Port Mirroring
+
+commit d99141bb7b341a4b11f520d59f5cf3e04a36f257
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Tue Jun 30 10:20:50 2020 +0700
+
+    XSRT-10 XSRT-11 missing declaration
+
+commit cbc31f8e66926927793531fd9f30b5da33923ee0
+Author: tuhn4 <tuhn4@viettel.com.vn>
+Date:   Tue Jun 30 09:09:43 2020 +0700
+
+    ONL: Change default config management interface into eth0
+
+commit 3f2d78f62eeea4cce9e0a050e805e4919227049d
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Mon Jun 29 11:38:44 2020 +0700
+
+    XSRT-10 XSRT-11 VLAN trunk software - Enable Egress translation
+
+commit 64c3402d47d1cfd410b65273dd3df339e9611660
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Fri Jun 19 09:21:49 2020 +0700
+
+    XSRT-7 [SRT100G] Develop VLAN feature: Support cint() for trunk mode - switchport mode trunk
+
+commit 8a5c3dbea6c9601e6799918a43070214a15b3b22
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Fri Jun 19 09:15:06 2020 +0700
+
+    XSRT-3 [SRT100G] Develop VLAN feature: Support add vlan to VLAN trunk mode
+
+commit 0b739bc776762ad4d95cf4e852377bdbaf3cf519
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Fri Jun 19 09:00:26 2020 +0700
+
+    XSRT-6 [SRT100G] Develop VLAN feature: Fix switchport error in L2 interface
+
+commit baa6fa52cac48c361e0cfb31f8b4188b477be401
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Fri Jun 19 08:50:55 2020 +0700
+
+    XSRT-8 XSRT-9 Support VLAN access interface
+
+commit 4cb236640dd7aa022714784d6b2cc9909ea98b72
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Wed May 27 16:17:36 2020 +0700
+
+    KhanhNP1: Fix L2 switchport
+
+commit 296dc19b6aabe6a7e6a535dbefcff299c8f1fbc1
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Tue May 26 10:58:19 2020 +0700
+
+    XSRT-5 [SRT100G] Develop VLAN feature: Support cint() for access mode
+
+commit 9aabd0286e65b1c56866d136cdef149488b86f58
+Author: La Van Thien <thienlv7@viettel.com.vn>
+Date:   Tue May 26 09:57:53 2020 +0700
+
+    XSRT-4 [SRT100G] Develop L3 features: Support connected host in some cases
+
+commit 43db52dd5036ba9944e7475c5d3d504bcf38ed2b
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Wed Apr 1 09:57:41 2020 +0700
+
+    Add BROADCOM_KBP_SDK macro in ZebIC
+
+commit 49b33e56a186aaace703d6642dcc45ffded7b805
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Wed Apr 1 08:57:39 2020 +0700
+
+    Add KBP libraries from Broadcom
+
+commit 62e9798c466e56739d6e7064eed2d2f6f80ec802
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Fri Mar 27 14:46:17 2020 +0700
+
+    Revise bcm config location and add rc folder to OpenNetLinux
+
+commit 124900608b7f54eb25c6a813cceb4f7551036666
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Wed Mar 25 09:36:14 2020 +0700
+
+    Move .gitignore file to specific folder
+
+commit a23f2c11d99add5c48a3a6a8da857f803708afe6
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Wed Mar 25 09:28:36 2020 +0700
+
+    Add .gitignore files and remove generated files
+
+commit 86d46625f29cdbae8af17a233e23fbecf1720891
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Tue Mar 24 14:55:59 2020 +0700
+
+    Revise Linux kernel directory
+
+commit ff6b3e50664eb0932e4ff6456bf2be56ed6a81a1
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Tue Mar 24 11:39:45 2020 +0700
+
+    Patch zebic for kernel 4.14
+
+commit 65ed3e6ec46dbc62317c4da1d68950c30df39b88
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Tue Mar 24 11:00:36 2020 +0700
+
+    Revise content of .gitignore files and remove debug in tools
+
+commit 73ebb5737fa138e3dd6f83718c44ab8b7d6d5392
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Tue Mar 24 09:59:14 2020 +0700
+
+    Add OpenNetworkLinux
+
+commit 182415cc8c404d7189260b99606cc4383e1d9675
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Tue Feb 4 14:26:58 2020 +0700
+
+    Revise linux folder
+
+commit 5867a450c195e3c4d915a478890c1604ec5d9bea
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Thu Dec 26 11:50:44 2019 +0700
+
+    Fix compile error in nsm for arp spoof socket
+
+commit 57f625f17d5aa587b391b32bd6c8acdac077598d
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Thu Dec 26 08:31:46 2019 +0700
+
+    Port L2 socket from HSL helper to HSL for LACP BFD
+
+commit c2eb20de532ceeb73b836547bb20255f8e528d9b
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Thu Dec 26 08:25:23 2019 +0700
+
+    Port L2 socket from HSL helper to HSL for PPPOE
+
+commit e78c4c2347769790e5c789769e8daa39278c203f
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Thu Dec 26 08:22:22 2019 +0700
+
+    Port L2 socket from HSL helper to HSL for ARP Spoofing
+
+commit cb5a6cdd2b947100f652b4a9e7d2886a6477eaec
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Thu Dec 26 08:17:45 2019 +0700
+
+    Port L2 socket from HSL helper to HSL for RSVP
+
+commit 591df725e521f57438b7e9f8e7fe3ebd18561036
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Fri Dec 20 15:12:45 2019 +0700
+
+    Revise CC in build.sh and remove some generated files from git
+
+commit 56625232254606a4083973659d44e91651f6c7a0
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Fri Dec 20 15:09:42 2019 +0700
+
+    Revise ZebIC for compiling successfully
+
+commit ef3fcd4d1e110662eeb9d104a5d2f9a1e7a3d191
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Fri Dec 20 11:46:22 2019 +0700
+
+    Port ZebIC for kernel 4.14
+
+commit e7a7e323bf7ca4fc4a3dfbbc9a956d4f0716461a
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Fri Dec 20 09:49:44 2019 +0700
+
+    Add flags to build for QAX switching chip
+
+commit 6d129cea7fecf96f53670262814faca70e2a7022
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Thu Dec 19 17:23:38 2019 +0700
+
+    Add PAM macro for compiling successfully without PAM
+
+commit effc89046862183324b33c718426b63365b53d77
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Thu Dec 19 17:15:45 2019 +0700
+
+    Revise address families number corresponding to kernel 4.14
+
+commit 0aaa617941b0bd27679288ccf6684046cb2fc753
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Thu Dec 19 14:13:35 2019 +0700
+
+    Add original ZebIC from SRT
+
+commit 1de5778cc043de1383753710d492f4d4affb0f8d
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Wed Dec 18 11:03:59 2019 +0700
+
+    Add SDK patch from Edge Core and IPI
+
+commit 974c490ebcdcdb0ffc5debe90112548a9e88a409
+Author: Nguyen Su Vinh <vinhns1@viettel.com.vn>
+Date:   Wed Dec 18 10:40:37 2019 +0700
+
+    Add original sdk 6.5.16 from Broadcom
